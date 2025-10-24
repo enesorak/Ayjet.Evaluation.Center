@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Ayjet.Evaluation.Center.Infrastructure</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Ayjet.Evaluation.Center.Application\Ayjet.Evaluation.Center.Application.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Hangfire.AspNetCore" Version="1.8.20" />
+      <PackageReference Include="Hangfire.PostgreSql" Version="1.20.12" />
+      <PackageReference Include="Mailjet.Api" Version="3.0.0" />
+      <PackageReference Include="QuestPDF" Version="2025.7.3" />
+      <PackageReference Include="SkiaSharp" Version="3.119.1" />
+      <PackageReference Include="SkiaSharp.NativeAssets.macOS" Version="3.119.1" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+        <None Update="Email\Templates\**\*">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+</Project>

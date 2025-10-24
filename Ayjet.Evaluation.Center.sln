@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# 
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{423E087F-D30E-4209-8335-491F73AEE701}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayjet.Evaluation.Center.Application", "src\Ayjet.Evaluation.Center.Application\Ayjet.Evaluation.Center.Application.csproj", "{21BBA289-DB6A-4D21-A8C8-A190D7CCD328}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayjet.Evaluation.Center.Domain", "src\Ayjet.Evaluation.Center.Domain\Ayjet.Evaluation.Center.Domain.csproj", "{79967DD0-7AC9-4172-9C93-DA1B8B4ACBF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayjet.Evaluation.Center.Infrastructure", "src\Ayjet.Evaluation.Center.Infrastructure\Ayjet.Evaluation.Center.Infrastructure.csproj", "{70114057-BECD-4F51-82D9-C448453AA167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayjet.Evaluation.Center.Persistence", "src\Ayjet.Evaluation.Center.Persistence\Ayjet.Evaluation.Center.Persistence.csproj", "{C3A888DE-611A-4D3A-957F-1C8063A7EA6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayjet.Evaluation.Center.Api", "src\Ayjet.Evaluation.Center.Api\Ayjet.Evaluation.Center.Api.csproj", "{DA8D7BE7-60E2-4AEC-B979-430716FC34EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{75703A5E-0051-4229-AD93-5AFCC8FBE327}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{6950A98F-0938-4602-BD8D-730CBC6180C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7E0DB3AA-3D18-444F-A570-4E1B472D279E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Persistence", "Persistence", "{9080D702-EBCD-4381-9DE1-2ADF5A3778AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{6AA0AAD0-1A25-42ED-99D9-02D8FD85A33F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{78DFB9A4-C0C2-47CC-86D7-DBEB6BF95BC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ayjet.Evaluation.Center.Application.Tests", "tests\Application.Tests\Ayjet.Evaluation.Center.Application.Tests.csproj", "{291E25D1-1D37-4C0A-990F-6FBFBA542A47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{75703A5E-0051-4229-AD93-5AFCC8FBE327} = {423E087F-D30E-4209-8335-491F73AEE701}
+		{6950A98F-0938-4602-BD8D-730CBC6180C6} = {423E087F-D30E-4209-8335-491F73AEE701}
+		{DA8D7BE7-60E2-4AEC-B979-430716FC34EA} = {75703A5E-0051-4229-AD93-5AFCC8FBE327}
+		{21BBA289-DB6A-4D21-A8C8-A190D7CCD328} = {6950A98F-0938-4602-BD8D-730CBC6180C6}
+		{7E0DB3AA-3D18-444F-A570-4E1B472D279E} = {423E087F-D30E-4209-8335-491F73AEE701}
+		{70114057-BECD-4F51-82D9-C448453AA167} = {7E0DB3AA-3D18-444F-A570-4E1B472D279E}
+		{9080D702-EBCD-4381-9DE1-2ADF5A3778AA} = {423E087F-D30E-4209-8335-491F73AEE701}
+		{C3A888DE-611A-4D3A-957F-1C8063A7EA6B} = {9080D702-EBCD-4381-9DE1-2ADF5A3778AA}
+		{6AA0AAD0-1A25-42ED-99D9-02D8FD85A33F} = {423E087F-D30E-4209-8335-491F73AEE701}
+		{79967DD0-7AC9-4172-9C93-DA1B8B4ACBF3} = {6AA0AAD0-1A25-42ED-99D9-02D8FD85A33F}
+		{291E25D1-1D37-4C0A-990F-6FBFBA542A47} = {78DFB9A4-C0C2-47CC-86D7-DBEB6BF95BC1}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21BBA289-DB6A-4D21-A8C8-A190D7CCD328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BBA289-DB6A-4D21-A8C8-A190D7CCD328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BBA289-DB6A-4D21-A8C8-A190D7CCD328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BBA289-DB6A-4D21-A8C8-A190D7CCD328}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79967DD0-7AC9-4172-9C93-DA1B8B4ACBF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79967DD0-7AC9-4172-9C93-DA1B8B4ACBF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79967DD0-7AC9-4172-9C93-DA1B8B4ACBF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79967DD0-7AC9-4172-9C93-DA1B8B4ACBF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70114057-BECD-4F51-82D9-C448453AA167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70114057-BECD-4F51-82D9-C448453AA167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70114057-BECD-4F51-82D9-C448453AA167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70114057-BECD-4F51-82D9-C448453AA167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3A888DE-611A-4D3A-957F-1C8063A7EA6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3A888DE-611A-4D3A-957F-1C8063A7EA6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3A888DE-611A-4D3A-957F-1C8063A7EA6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3A888DE-611A-4D3A-957F-1C8063A7EA6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA8D7BE7-60E2-4AEC-B979-430716FC34EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA8D7BE7-60E2-4AEC-B979-430716FC34EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA8D7BE7-60E2-4AEC-B979-430716FC34EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA8D7BE7-60E2-4AEC-B979-430716FC34EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{291E25D1-1D37-4C0A-990F-6FBFBA542A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{291E25D1-1D37-4C0A-990F-6FBFBA542A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{291E25D1-1D37-4C0A-990F-6FBFBA542A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{291E25D1-1D37-4C0A-990F-6FBFBA542A47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
