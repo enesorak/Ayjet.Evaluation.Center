@@ -19,6 +19,8 @@ public class Candidate : BaseEntityWithGuid
     public string? FleetCode { get; set; }
     public bool IsArchived { get; set; } = false; // Arşiv durumu
     
+    public string? PhoneNumber { get; set; }
+    
     // MMPI için demografik bilgiler
     public Gender? Gender { get; set; }
     public string? MaritalStatus { get; set; } // Örn: "Evli", "Bekar"

@@ -1,11 +1,11 @@
-using AAyjet.Evaluation.Center.Persistence.Context;
-using AAyjet.Evaluation.Center.Persistence.Repositories;
 using Ayjet.Evaluation.Center.Application.Common.Interfaces;
+using Ayjet.Evaluation.Center.Persistence.Context;
+using Ayjet.Evaluation.Center.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace AAyjet.Evaluation.Center.Persistence;
+namespace Ayjet.Evaluation.Center.Persistence;
 
 
 public static class PersistenceServiceRegistration

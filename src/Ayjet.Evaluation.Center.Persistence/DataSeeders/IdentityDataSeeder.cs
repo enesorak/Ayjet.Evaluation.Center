@@ -2,7 +2,7 @@ using Ayjet.Evaluation.Center.Domain.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace AAyjet.Evaluation.Center.Persistence.DataSeeders;
+namespace Ayjet.Evaluation.Center.Persistence.DataSeeders;
 
 public static class IdentityDataSeeder
 {

@@ -1,0 +1,5636 @@
+[
+  {
+    "questionId": 1,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Teknik yazılardan hoşlanırım" },
+      { "language": "en-US", "text": "I like mechanics magazines" }
+    ]
+  },
+  {
+    "questionId": 2,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "İştahım iyidir" },
+      { "language": "en-US", "text": "I have a good appetite" }
+    ]
+  },
+  {
+    "questionId": 3,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Pt", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çok defa sabahları dinç ve dinlenmiş olarak uyanırım" },
+      { "language": "en-US", "text": "I wake up fresh & rested most mornings" }
+    ]
+  },
+  {
+    "questionId": 4,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kütüphaneci olarak çalışmayı seveceğimi sanıyorum" },
+      { "language": "en-US", "text": "I think I would like the work of a librarian" }
+    ]
+  },
+  {
+    "questionId": 5,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Gürültüden kolayca uyanırım" },
+      { "language": "en-US", "text": "I am easily awakened by noise" }
+    ]
+  },
+  {
+    "questionId": 6,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Cinayet haberlerini okumaktan hoşlanırım" },
+      { "language": "en-US", "text": "I like to read newspaper articles on crime" }
+    ]
+  },
+  {
+    "questionId": 7,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğu zaman el ve ayaklarımın sıcaklığı iyidir" },
+      { "language": "en-US", "text": "My hands and feet are usually warm enough" }
+    ]
+  },
+  {
+    "questionId": 8,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Pd", "keyedResponse": "False" },
+      { "key": "Pt", "keyedResponse": "False" },
+      { "key": "Sc", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Günlük hayatım beni ilgilendirecek şeylerle doludur" },
+      { "language": "en-US", "text": "My daily life is full of things that keep me interested" }
+    ]
+  },
+  {
+    "questionId": 9,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bugün de hemen hemen eskisi kadar iyi çalışabiliyorum" },
+      { "language": "en-US", "text": "I am about as able to work as I ever was" }
+    ]
+  },
+  {
+    "questionId": 10,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "True" },
+      { "key": "Pt", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğu zaman boğazım tıkanır gibi olur" },
+      { "language": "en-US", "text": "There seems to be a lump in my throat much of the time" }
+    ]
+  },
+  {
+    "questionId": 11,
+    "scoringInfo": [
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "İnsan rüyalarını anlamaya çalışmalı ve kendini onlara göre ayarlamalıdır" },
+      { "language": "en-US", "text": "A person should try to understand his dreams and be guided bor take warning from them" }
+    ]
+  },
+  {
+    "questionId": 12,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Polis romanlarından ya da esrarengiz romanlardan hoşlanırım" },
+      { "language": "en-US", "text": "I enjoy detective or mystery stories" }
+    ]
+  },
+  {
+    "questionId": 13,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "True" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Büyük bir sinir gerginliği içinde çalışırım" },
+      { "language": "en-US", "text": "I work under a great deal of tension" }
+    ]
+  },
+  {
+    "questionId": 14,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Ayda bir iki defa ishal olurum" },
+      { "language": "en-US", "text": "I have diarrhea once a month or more" }
+    ]
+  },
+  {
+    "questionId": 15,
+    "scoringInfo": [
+      { "key": "L", "keyedResponse": "False" },
+      { "key": "Pa", "keyedResponse": "True" },
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Ara sıra söylenemeyecek kadar ayıp şeyler düşünürüm" },
+      { "language": "en-US", "text": "Once in a while I think of things too shameful to talk about" }
+    ]
+  },
+  {
+    "questionId": 16,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "True" },
+      { "key": "Pa", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hayatta kötülükler hep beni bulur" },
+      { "language": "en-US", "text": "I am sure I get a raw(bad) deal from life" }
+    ]
+  },
+  {
+    "questionId": 17,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "False" },
+      { "key": "Sc", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Babam iyi bir adamdır" },
+      { "language": "en-US", "text": "My father was a good man" }
+    ]
+  },
+  {
+    "questionId": 18,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "D", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Pek seyrek kabız olurum" },
+      { "language": "en-US", "text": "I am very seldom troubled by constipation( I do not have the problem of pooping)" }
+    ]
+  },
+  {
+    "questionId": 19,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Yeni bir işe girince kimin gözüne girme gerektiğini öğrenmek isterim" },
+      { "language": "en-US", "text": "When I take a new job, I like to be tipped off on whom should be gotten next to" }
+    ]
+  },
+  {
+    "questionId": 20,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "False" },
+      { "key": "Pd", "keyedResponse": "False" },
+      { "key": "Sc", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Cinsel yaşamımdan memnunum" },
+      { "language": "en-US", "text": "My sex life is satisfactory" }
+    ]
+  },
+  {
+    "questionId": 21,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Zaman zaman evi bırakıp gitmek istemişimdir" },
+      { "language": "en-US", "text": "At times I have very much wanted to leave home" }
+    ]
+  },
+  {
+    "questionId": 22,
+    "scoringInfo": [
+      { "key": "Pa", "keyedResponse": "True" },
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Ara sıra kontrol edemediğim gülme ve ağlama nöbetlerine tutulurum" },
+      { "language": "en-US", "text": "At times I have fits of laughing & crying that I cannot control" }
+    ]
+  },
+  {
+    "questionId": 23,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" },
+      { "key": "Hs", "keyedResponse": "True" },
+      { "key": "D", "keyedResponse": "True" },
+      { "key": "Hy", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Tekrarlanan mide bulantısı ve kusmalar bana sıkıntı verir" },
+      { "language": "en-US", "text": "I am troubled by attacks of nausea and vomiting" }
+    ]
+  },
+  {
+    "questionId": 24,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "True" },
+      { "key": "Pa", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kimse beni anlamıyor" },
+      { "language": "en-US", "text": "No one seems to understand me" }
+    ]
+  },
+  {
+    "questionId": 25,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" },
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Şarkici olmayı isterim" },
+      { "language": "en-US", "text": "I would like to be a singer" }
+    ]
+  },
+  {
+    "questionId": 26,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Başım derde girince susmayı tercih ederim" },
+      { "language": "en-US", "text": "I feel that it is certainly best to keep my mouth shut when I’m in trouble" }
+    ]
+  },
+  {
+    "questionId": 27,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" },
+      { "key": "Pa", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen kötü ruhların beni etkileri altına aldıklarını hissederim" },
+      { "language": "en-US", "text": "Evil spirits possess me at times" }
+    ]
+  },
+  {
+    "questionId": 28,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kötülüğe kötülükle karşılık vermem prensibimdir" },
+      { "language": "en-US", "text": "When someone does me a wrong, I feel I should pay him back if I can, just for the principle of the\njustice." }
+    ]
+  },
+  {
+    "questionId": 29,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğu kez midem ekşir" },
+      { "language": "en-US", "text": "I am bothered by acid stomach several times a week" }
+    ]
+  },
+  {
+    "questionId": 30,
+    "scoringInfo": [
+      { "key": "L", "keyedResponse": "False" },
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen canim küfretmek ister" },
+      { "language": "en-US", "text": "Sometimes I feel like swearing" }
+    ]
+  },
+  {
+    "questionId": 31,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Sık sık geceleri kabus geçiririm" },
+      { "language": "en-US", "text": "I have nightmares every few nights" }
+    ]
+  },
+  {
+    "questionId": 32,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "True" },
+      { "key": "Hy", "keyedResponse": "True" },
+      { "key": "Pd", "keyedResponse": "True" },
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Zihnimi bir iş üzerinde toplamada güçlük çekerim" },
+      { "language": "en-US", "text": "I find it hard to keep my mind on a task or job" }
+    ]
+  },
+  {
+    "questionId": 33,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" },
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Başımdan çok garip ve tuhaf şeyler geçti" },
+      { "language": "en-US", "text": "I have had very peculiar and strange experiences" }
+    ]
+  },
+  {
+    "questionId": 34,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğu zaman öksürüğüm vardır" },
+      { "language": "en-US", "text": "I have a cough most of the time" }
+    ]
+  },
+  {
+    "questionId": 35,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" },
+      { "key": "Pd", "keyedResponse": "True" },
+      { "key": "Pa", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Başkaları engel olmasaydı daha çok başarılı olurdum" },
+      { "language": "en-US", "text": "If people had not had it in for me I would have been much more successful" }
+    ]
+  },
+  {
+    "questionId": 36,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Pt", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Sağlığım beni pek kaygılandırmaz" },
+      { "language": "en-US", "text": "I seldom worry about my heath" }
+    ]
+  },
+  {
+    "questionId": 37,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "False" },
+      { "key": "Sc", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Cinsel yaşamım yüzünden başım hiç derde girmedi" },
+      { "language": "en-US", "text": "I have never been in trouble because of my sexula life." }
+    ]
+  },
+  {
+    "questionId": 38,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Gençliğimde bir devre ufak tefek şeyler çaldım" },
+      { "language": "en-US", "text": "During one period when I was a youngster I engaged in petty thievery" }
+    ]
+  },
+  {
+    "questionId": 39,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "D", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen içimde bir şeyler kırmak isteği geçer" },
+      { "language": "en-US", "text": "At times I feel like smashing things" }
+    ]
+  },
+  {
+    "questionId": 40,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Başka bir şey yapmaktansa çoğu zaman oturup hayal kurmayı severim" },
+      { "language": "en-US", "text": "Most any time I would rather sit and daydream than to do anything else" }
+    ]
+  },
+  {
+    "questionId": 41,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "True" },
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kendimi toparlayamadığım için günler, haftalar, hatta aylarca hiçbir şeye el\nsürmediğim olur" },
+      { "language": "en-US", "text": "I have had periods of days, weeks, or months when I couldnt take care of things because I couldnt\nget going" }
+    ]
+  },
+  {
+    "questionId": 42,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" },
+      { "key": "Pd", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Ailem seçtiğim veya seçmek istediğim mesleği beğenmiyor" },
+      { "language": "en-US", "text": "My family does not like the work I have chosen ( or the work I intend to choose for my life work)" }
+    ]
+  },
+  {
+    "questionId": 43,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "True" },
+      { "key": "D", "keyedResponse": "True" },
+      { "key": "Hy", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kuşkulu ve rahatsız uyurum" },
+      { "language": "en-US", "text": "My sleep is fitful and disturbed" }
+    ]
+  },
+  {
+    "questionId": 44,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğu zaman başımın her tarafı ağrır" },
+      { "language": "en-US", "text": "Much of the time my head seems to hurt all over" }
+    ]
+  },
+  {
+    "questionId": 45,
+    "scoringInfo": [
+      { "key": "L", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Her zaman doğruyu söylemem" },
+      { "language": "en-US", "text": "I do not always tell the truth" }
+    ]
+  },
+  {
+    "questionId": 46,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Şimdi her zamankinden daha iyi düşünüp tartabiliyorum" },
+      { "language": "en-US", "text": "My judgment is better than it ever was" }
+    ]
+  },
+  {
+    "questionId": 47,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Ortada hiç bir neden yokken haftada bir ya da daha sık birdenbire her yanımı ateş\nbasar" },
+      { "language": "en-US", "text": "Once a week or oftener I feel suddenly hot all over without apparent cause" }
+    ]
+  },
+  {
+    "questionId": 48,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Başkaları ile bir arada iken kulağıma çok garip şeyler gelmesinden rahatsız olurum" },
+      { "language": "en-US", "text": "When I am with people I am bothered by hearing very strange things" }
+    ]
+  },
+  {
+    "questionId": 49,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kanunların hemen hepsi kaldırılsa daha iyi olur" },
+      { "language": "en-US", "text": "It would be better if almost all laws were thrown away" }
+    ]
+  },
+  {
+    "questionId": 50,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen ruhum vücudumdan ayrılır" },
+      { "language": "en-US", "text": "My soul sometimes leaves my body" }
+    ]
+  },
+  {
+    "questionId": 51,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Sağlığım bir çok arkadaşımınki kadar iyidir" },
+      { "language": "en-US", "text": "I am in just as good physical health as most of my friends" }
+    ]
+  },
+  {
+    "questionId": 52,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Uzun zamandan beri görmediğim okul arkadaşlarım ya da tanıdıklarım önce\nbenimle konuşmazlarsa onları görmemezlikten gelmeyi tercih ederim" },
+      { "language": "en-US", "text": "I prefer to pass by school friends, or people I know but have not seen for a long time, unless they\nspeak to me first" }
+    ]
+  },
+  {
+    "questionId": 53,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hocaların dua okuyup üflemesi hastalığı iyileştirir" },
+      { "language": "en-US", "text": "A minister can cure disease by praying and putting his hand on your head" }
+    ]
+  },
+  {
+    "questionId": 54,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Tanıdıklarımın çoğu beni sever" },
+      { "language": "en-US", "text": "I am liked by most people who know me" }
+    ]
+  },
+  {
+    "questionId": 55,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kalp ve göğüs ağrılarından hemen hemen hiç şikayetim yoktur" },
+      { "language": "en-US", "text": "I am almost never bothered by pains over the heart or in my chest" }
+    ]
+  },
+  {
+    "questionId": 56,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çocukken okuldan kaçtığım için bir iki defa cezalandırıldım" },
+      { "language": "en-US", "text": "As a youngster I was suspended from school one or more times for cutting up" }
+    ]
+  },
+  {
+    "questionId": 57,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "İnsanlarla çabucak kaynaşırım" },
+      { "language": "en-US", "text": "I am a good mixer I get along with people quickly" }
+    ]
+  },
+  {
+    "questionId": 58,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kuran' ın buyurdukları bir bir çıkmaktadır" },
+      { "language": "en-US", "text": "Everything is turning out just like the prophets of the Bible said it would" }
+    ]
+  },
+  {
+    "questionId": 59,
+    "scoringInfo": [
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çok defa benden az bilenlerden emir alarak çalışmak zorunda kaldım" },
+      { "language": "en-US", "text": "I have often had to take orders from someone who did not know as much as I did" }
+    ]
+  },
+  {
+    "questionId": 60,
+    "scoringInfo": [
+      { "key": "L", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Her gün gazetelerin baş yazılarını okumam" },
+      { "language": "en-US", "text": "I do not read every editorial in the newspaper everyday" }
+    ]
+  },
+  {
+    "questionId": 61,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Gerektiği gibi bir hayat yaşayamadım" },
+      { "language": "en-US", "text": "I have not lived the right kind of life" }
+    ]
+  },
+  {
+    "questionId": 62,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Vücudumun bazı yerlerinde çok defa yanma, gıdıklanma, karıncalanma veya\nuyuşukluk hissederim" },
+      { "language": "en-US", "text": "Parts of my body often have feeling like burning, tingling,crawling, or like going to sleep" }
+    ]
+  },
+  {
+    "questionId": 63,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Büyük abdest yapmada ya da tutmada hiç bir güçlük çekmem" },
+      { "language": "en-US", "text": "I have had no difficulty in starting or holding my bowel(Holding poop) movement" }
+    ]
+  },
+  {
+    "questionId": 64,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen başkalarının sabrını tüketecek kadar bir şeye saplanır kalırım" },
+      { "language": "en-US", "text": "I sometimes keep on at a thing until others lose their patience with me" }
+    ]
+  },
+  {
+    "questionId": 65,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "False" },
+      { "key": "Sc", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Babamı severim" },
+      { "language": "en-US", "text": "I loved my father" }
+    ]
+  },
+  {
+    "questionId": 66,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Etrafımda başkalarının görmediği eşya, hayvanlar veya insanlar görürüm" },
+      { "language": "en-US", "text": "I see things or animals or people around me that others do not see" }
+    ]
+  },
+  {
+    "questionId": 67,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "True" },
+      { "key": "Pd", "keyedResponse": "True" },
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Başkalarının mutlu göründüğü kadar mutlu olmayı isterdim" },
+      { "language": "en-US", "text": "I wish I could be as happy as others seem to be" }
+    ]
+  },
+  {
+    "questionId": 68,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Ensemde nadiren ağrı hissederim" },
+      { "language": "en-US", "text": "I hardly ever feel pain in the back of the neck" }
+    ]
+  },
+  {
+    "questionId": 69,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kendi cinsimden olanları oldukça çekici bulurum" },
+      { "language": "en-US", "text": "I am very strongly attracted by members of my own sex" }
+    ]
+  },
+  {
+    "questionId": 70,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Körebe oyunundan hoşlanırdım" },
+      { "language": "en-US", "text": "I used to like drop-the-handkerchief(a game like hide and seek)" }
+    ]
+  },
+  {
+    "questionId": 71,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Birçok kimseler başkalarının ilgi ve yardımlarını sağlamak için talihsizliklerini\nabartırlar" },
+      { "language": "en-US", "text": "I think a great many people exaggerate their misfortunes in order to gain the sympathy and help\nof others" }
+    ]
+  },
+  {
+    "questionId": 72,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hemen hemen her gün mide ağrılarından rahatsız olurum" },
+      { "language": "en-US", "text": "I am troubled by discomfort in the pit of my stomach every few days or oftener" }
+    ]
+  },
+  {
+    "questionId": 73,
+    "scoringInfo": [
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Ben önemli bir kimseyim" },
+      { "language": "en-US", "text": "I am an important person" }
+    ]
+  },
+  {
+    "questionId": 74,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğu zaman kız olmayı isterdim (Şayet kız iseniz:) Kız olduğuma hiç üzülmedim" },
+      { "language": "en-US", "text": "I have often wished I were a girl. (Or if you are a girl) I have never been sorry that I am a girl" }
+    ]
+  },
+  {
+    "questionId": 75,
+    "scoringInfo": [
+      { "key": "L", "keyedResponse": "False" },
+      { "key": "F", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Ara sıra öfkelenirim" },
+      { "language": "en-US", "text": "I get angry sometimes" }
+    ]
+  },
+  {
+    "questionId": 76,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "True" },
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğu zaman kendimi hüzünlü hissederim" },
+      { "language": "en-US", "text": "I feel sad most of the time." }
+    ]
+  },
+  {
+    "questionId": 77,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Aşk romanları okumaktan hoşlanırım" },
+      { "language": "en-US", "text": "I like rading love stories." }
+    ]
+  },
+  {
+    "questionId": 78,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Şiiri severim" },
+      { "language": "en-US", "text": "I like poetry." }
+    ]
+  },
+  {
+    "questionId": 79,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kolay incinmem" },
+      { "language": "en-US", "text": "I don’t get hurt easly." }
+    ]
+  },
+  {
+    "questionId": 80,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen hayvanlara rahat vermem" },
+      { "language": "en-US", "text": "Sometimes I bother animals." }
+    ]
+  },
+  {
+    "questionId": 81,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Orman bekçiliği gibi işlerden hoşlanacağımı sanıyorum" },
+      { "language": "en-US", "text": "I would like to be a forest watchman." }
+    ]
+  },
+  {
+    "questionId": 82,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Tartışmalarda çabucak yenilirim" },
+      { "language": "en-US", "text": "I am defeated at the arguments quickly." }
+    ]
+  },
+  {
+    "questionId": 83,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çok çalışabilen ya da çalışmak isteyen kişinin başarılı olma şansı yüksektir" },
+      { "language": "en-US", "text": "Anyone who is able and willing to work hard has a good chance of succeeding." }
+    ]
+  },
+  {
+    "questionId": 84,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bugünlerde artık hiç ilerleme umudum kalmamış gibi hissediyorum" },
+      { "language": "en-US", "text": "Nowadays, I feel like I do not have any hope of improvments." }
+    ]
+  },
+  {
+    "questionId": 85,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kullanmayacak bile olsam bazen başkalarının ayakkabı, eldiven gibi özel eşyaları\no kadar hoşuma gider ki dokunmak ve aşırmak isterim" },
+      { "language": "en-US", "text": "Sometimes I am so strongly attracted by the personal articles of others, as shoes, gloves, etc.,\nthat I want to handle or steal them, even though I have no use for them." }
+    ]
+  },
+  {
+    "questionId": 86,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "True" },
+      { "key": "Pt", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kendime hiç güvenim yoktur" },
+      { "language": "en-US", "text": "I do not have self-confidence at all." }
+    ]
+  },
+  {
+    "questionId": 87,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çiçek satıcısı olmayı isterdim" },
+      { "language": "en-US", "text": "I would like to be florist." }
+    ]
+  },
+  {
+    "questionId": 88,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Genel olarak hayatın yaşanmaya değer olduğu kanısındayım" },
+      { "language": "en-US", "text": "Life is generally worth living." }
+    ]
+  },
+  {
+    "questionId": 89,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "İnsanlara gerçeği kabul ettirmek güçtür" },
+      { "language": "en-US", "text": "It takes a lot of argument to convince most people of the truth." }
+    ]
+  },
+  {
+    "questionId": 90,
+    "scoringInfo": [
+      { "key": "L", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bugün yapmam gereken işleri ara sıra yarına bıraktığım olur" },
+      { "language": "en-US", "text": "Once in a while I put off until tomorrow what I ought to do today." }
+    ]
+  },
+  {
+    "questionId": 91,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Benimle alay edilmesine aldırmam" },
+      { "language": "en-US", "text": "I do not mind being made fun of." }
+    ]
+  },
+  {
+    "questionId": 92,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hemşire olmayı isterdim" },
+      { "language": "en-US", "text": "I would like to be a nurse." }
+    ]
+  },
+  {
+    "questionId": 93,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Pa", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Yükselmek için bir çok kimse yalan söylemekten çekinmez" },
+      { "language": "en-US", "text": "I think most people would lie to get ahead." }
+    ]
+  },
+  {
+    "questionId": 94,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "True" },
+      { "key": "Pt", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Sonradan pişman olacağım pek çok şeyi yaptığım olur" },
+      { "language": "en-US", "text": "I do many things that I regret afterwards. (I regret things more than others seem to.)" }
+    ]
+  },
+  {
+    "questionId": 95,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Namazımı hemen hemen muntazaman kılarım" },
+      { "language": "en-US", "text": "I pray almost regularly." }
+    ]
+  },
+  {
+    "questionId": 96,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "True" },
+      { "key": "Pd", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Ailemle pek az kavga ederim" },
+      { "language": "en-US", "text": "I have very few quarrels with members of my family." }
+    ]
+  },
+  {
+    "questionId": 97,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "True" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen zararlı yada çok kötü işler yapmam için içimde çok güçlü bir istek duyarım" },
+      { "language": "en-US", "text": "At times, I have a strong urge to do somehingharmful or shocking." }
+    ]
+  },
+  {
+    "questionId": 98,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kıyamet gününe inanıyorum" },
+      { "language": "en-US", "text": "I believe in the day of judgement." }
+    ]
+  },
+  {
+    "questionId": 99,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" },
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Gürültülü eğlencelere katılmaktan hoşlanırım" },
+      { "language": "en-US", "text": "I like to go to parties and other affairs where there is a lot of loud fun." }
+    ]
+  },
+  {
+    "questionId": 100,
+    "scoringInfo": [
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bildiğim bir konuda bir kimse saçma sapan ya da cahilce konuşursa onu hemen\ndüzeltirim" },
+      { "language": "en-US", "text": "When a person talks through one’s hat(speaks without knowing anything about the subject) and\nblather about something that I know well I corrected them immediately." }
+    ]
+  },
+
+
+  {
+    "questionId": 101,
+    "scoringInfo": [
+      { "key": "Ma", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bence cinsel yönden kadınlar da erkekler kadar serbest olmalıdır," },
+      { "language": "en-US", "text": "I believe that women ought to have as much sexual freedom as men." }
+    ]
+  },
+  {
+    "questionId": 102,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "True" },
+      { "key": "Pt", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "En büyük mücadelemi kendimle yaparım" },
+      { "language": "en-US", "text": "My hardest battles are with myself." }
+    ]
+  },
+  {
+    "questionId": 103,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Sc", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Vücudumda pek az seğirme ve kasılma olur" },
+      { "language": "en-US", "text": "I have little or no trouble with my muscles twitching or jumping." }
+    ]
+  },
+  {
+    "questionId": 104,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Başıma ne gelirse gelsin aldırış etmiyorum" },
+      { "language": "en-US", "text": "I don’t seem to care what happens to me." }
+    ]
+  },
+  {
+    "questionId": 105,
+    "scoringInfo": [
+      { "key": "L", "keyedResponse": "False" },
+      { "key": "Ma", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Keyfim yerinde olmadığı zaman tersliğim üzerimdedir" },
+      { "language": "en-US", "text": "Sometimes when I am not well I am irritable." }
+    ]
+  },
+  {
+    "questionId": 106,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "True" },
+      { "key": "Pt", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğu zaman büyük bir hata ya da kötülük yaptığım korkusuna kapılırım" },
+      { "language": "en-US", "text": "Much of the time I feel as if I have done something wrong or evil." }
+    ]
+  },
+  {
+    "questionId": 107,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Pd", "keyedResponse": "False" },
+      { "key": "Pa", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğu zaman mutluyumdur" },
+      { "language": "en-US", "text": "I am happy most of the time." }
+    ]
+  },
+  {
+    "questionId": 108,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğu zaman bana kafam şişmiş ya da burnum tıkanmış gibi gelir" },
+      { "language": "en-US", "text": "There seems to be a fullness in my head or nose most of the time." }
+    ]
+  },
+  {
+    "questionId": 109,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Pa", "keyedResponse": "False" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazı kimseler o kadar amirane davranırlar ki haklı bile olsalar içimden\ndediklerinin aksini yapmak gelir" },
+      { "language": "en-US", "text": "Some people are so bossy that I feel like doing the opposite of what they request, even though I\nknow they are right." }
+    ]
+  },
+  {
+    "questionId": 110,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "True" },
+      { "key": "Pa", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bana kötülük etmek isteyen biri var" },
+      { "language": "en-US", "text": "Someone has it in for me." }
+    ]
+  },
+  {
+    "questionId": 111,
+    "scoringInfo": [
+      { "key": "Pa", "keyedResponse": "False" },
+      { "key": "Ma", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Sırf heyecanlanmak için tehlikeli bir işe girişmedim" },
+      { "language": "en-US", "text": "I have never done anyhing dangerous just for the thrill of it." }
+    ]
+  },
+  {
+    "questionId": 112,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "False" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Doğru bildiğim şeyler için çoğu zaman direnmek zorunda kalırım" },
+      { "language": "en-US", "text": "I have to resist most of the things I know correctly." }
+    ]
+  },
+  {
+    "questionId": 113,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kanunların uygulanması gerektiğine inanırım" },
+      { "language": "en-US", "text": "I believe in law enforcement." }
+    ]
+  },
+  {
+    "questionId": 114,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "True" },
+      { "key": "Hy", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğu zaman başım sıkı bir çember içindeymiş gibi hissederim" },
+      { "language": "en-US", "text": "Often I feel as if there is a tight band around my head." }
+    ]
+  },
+  {
+    "questionId": 115,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "False" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Ahirete inanırım" },
+      { "language": "en-US", "text": "I believe in life hereafter." }
+    ]
+  },
+  {
+    "questionId": 116,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bahse girdiğim yarış ya da oyunlardan daha çok zevk alırım" },
+      { "language": "en-US", "text": "I enjoy a race or game more when I bet on it." }
+    ]
+  },
+  {
+    "questionId": 117,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" },
+      { "key": "Pa", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bir çok kimseler daha çok yakalanmaktan korktukları için dürüsttürler" },
+      { "language": "en-US", "text": "Most people are honest chiefly because they are afraid of being caught." }
+    ]
+  },
+  {
+    "questionId": 118,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Dersten kaçtığım için ara sıra müdüre gönderildiğim oldu" },
+      { "language": "en-US", "text": "In school I was sometimes sent to the principal for bad behavior." }
+    ]
+  },
+  {
+    "questionId": 119,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "False" },
+      { "key": "Ma", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Konuşma tarzım her zamanki gibidir (Daha yavaş ya da hızlı değil, yayvanlaşmış\nya da kısık değil)" },
+      { "language": "en-US", "text": "My speech is the same as always (not faster or slower, no slurring or hoarseness)." }
+    ]
+  },
+  {
+    "questionId": 120,
+    "scoringInfo": [
+      { "key": "L", "keyedResponse": "False" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" },
+      { "key": "Ma", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Evde sofra adabına dışarıdaki kadar dikkat etmem" },
+      { "language": "en-US", "text": "My table manners are not quite as good at home as when I am out in company." }
+    ]
+  },
+  {
+    "questionId": 121,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" },
+      { "key": "Pa", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Aleyhimde bazı tertipler kurulduğuna inanıyorum" },
+      { "language": "en-US", "text": "I believe I am being plotted against." }
+    ]
+  },
+  {
+    "questionId": 122,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Pt", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Tanıdığım insanların çoğu kadar becerikli ve zeki olduğuma sanıyorum" },
+      { "language": "en-US", "text": "I seem to be about as capable and smart as most others around me." }
+    ]
+  },
+  {
+    "questionId": 123,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" },
+      { "key": "Pa", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Beni takip edenler olduğuna inanıyorum" },
+      { "language": "en-US", "text": "I believe I am being followed." }
+    ]
+  },
+  {
+    "questionId": 124,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Pa", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bir çokları kaybetmektense çıkarlarını korumak için pek doğru olmayan yollara\nbaşvururlar" },
+      { "language": "en-US", "text": "Most people will use somewhat unfair means to gain profit or an advantage rather than to lose\nit." }
+    ]
+  },
+  {
+    "questionId": 125,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Midemden oldukça rahatsızım" },
+      { "language": "en-US", "text": "I have a great deal of stomach trouble." }
+    ]
+  },
+  {
+    "questionId": 126,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" },
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Tiyatrodan hoşlanırım" },
+      { "language": "en-US", "text": "I like dramatics." }
+    ]
+  },
+  {
+    "questionId": 127,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "True" },
+      { "key": "Pa", "keyedResponse": "True" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Dertlerimin çoğundan kimin sorumlu olduğunu biliyorum" },
+      { "language": "en-US", "text": "I know who is responsible for most of my troubles." }
+    ]
+  },
+  {
+    "questionId": 128,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kan görünce korkmam ya da fenalaşmam" },
+      { "language": "en-US", "text": "The sight of blood does not frighten me or make me sick." }
+    ]
+  },
+  {
+    "questionId": 129,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen ters ve suratsız olurum" },
+      { "language": "en-US", "text": "Sometimes I can be grumpy and difficult." }
+    ]
+  },
+  {
+    "questionId": 130,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "D", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hiç bir zaman kan kusmadım ya da kan tükürmedim" },
+      { "language": "en-US", "text": "I have never vomited blood or coughed up blood." }
+    ]
+  },
+  {
+    "questionId": 131,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hastalığa yakalanacağım diye kaygılanmam" },
+      { "language": "en-US", "text": "I do not worry about catching diseases." }
+    ]
+  },
+  {
+    "questionId": 132,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çiçek koleksiyonu yapmayı ve evde çiçek yetiştirmeyi severim" },
+      { "language": "en-US", "text": "I like collecting flowers or growing houseplants." }
+    ]
+  },
+  {
+    "questionId": 133,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hiç bir zaman normal olmayan cinsel ilişkilere girişmedim" },
+      { "language": "en-US", "text": "I have never indulged in unusual sex practices." }
+    ]
+  },
+  {
+    "questionId": 134,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "Pd", "keyedResponse": "False" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen kafamdaki düşünceler o kadar hızlıdır ki söylemeyi yetiştiremem" },
+      { "language": "en-US", "text": "At times my thoughts have raced ahead faster than I could speak them." }
+    ]
+  },
+  {
+    "questionId": 135,
+    "scoringInfo": [
+      { "key": "L", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Fark edilmeyeceğimden emin olsam sinemaya biletsiz girerdim" },
+      { "language": "en-US", "text": "If I could get into the movies without paying and be sure I was not seen, I would probably do it." }
+    ]
+  },
+  {
+    "questionId": 136,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bana iyilik yapan kimsenin genel olarak gizli bir amacı olabileceğini düşünürüm" },
+      { "language": "en-US", "text": "I often wonder what hidden reason another person may have for doing something nice for me." }
+    ]
+  },
+  {
+    "questionId": 137,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Pd", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Aile hayatımın tanıdığım kimselerin çoğununki kadar iyi olduğuna inanıyorum" },
+      { "language": "en-US", "text": "I believe that my home life is as pleasant as that of most people I know." }
+    ]
+  },
+  {
+    "questionId": 138,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "D", "keyedResponse": "True" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Eleştiri beni çok kırar" },
+      { "language": "en-US", "text": "Criticism or scolding hurts me terribly." }
+    ]
+  },
+  {
+    "questionId": 139,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen sanki kendimi ya da başkasını incitmek zorundaymışım gibi hissederim" },
+      { "language": "en-US", "text": "Sometimes I feel as if I must injure either myself or someone else." }
+    ]
+  },
+  {
+    "questionId": 140,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Yemek pişirmeyi severim" },
+      { "language": "en-US", "text": "I like to cook." }
+    ]
+  },
+  {
+    "questionId": 141,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Pd", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Davranışlarımı çoğu zaman etrafımdakilere göre ayarlarım" },
+      { "language": "en-US", "text": "Mycnduct is largely controlled by the behavior of those around me." }
+    ]
+  },
+  {
+    "questionId": 142,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "D", "keyedResponse": "True" },
+      { "key": "Pt", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen hiçbir işe yaramadığımı düşünürüm" },
+      { "language": "en-US", "text": "I certainly feel useless at times." }
+    ]
+  },
+  {
+    "questionId": 143,
+    "scoringInfo": [
+      { "key": "Ma", "keyedResponse": "True" },
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çocukken başlarına ne gelirse gelsin aralarındaki birliği koruyan bir gruptaydım" },
+      { "language": "en-US", "text": "When I was a child, I belonged to a group of friends that tried to be loyal through all kinds of\ntrouble." }
+    ]
+  },
+  {
+    "questionId": 144,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Asker olmak isterim" },
+      { "language": "en-US", "text": "I would like to be a soldier." }
+    ]
+  },
+  {
+    "questionId": 145,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen biriyle yumruk yumruğa kavgaya girişmek istediğim olur" },
+      { "language": "en-US", "text": "At times I feel like picking a fistfight with someone." }
+    ]
+  },
+  {
+    "questionId": 146,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Seyahat edip gezip tozmadıkça mutlu olmam" },
+      { "language": "en-US", "text": "I am never happy unless I am roaming or traveling around." }
+    ]
+  },
+  {
+    "questionId": 147,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çabuk karar vermediğim için çok fırsat kaçırdım" },
+      { "language": "en-US", "text": "I have often lost out on things because I couldn’t make my mind up soon enough." }
+    ]
+  },
+  {
+    "questionId": 148,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "Ma", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Önemli bir iş üzerinde çalışırken başkalarının işimi yarıda kesmeleri sabrımı taşırır" },
+      { "language": "en-US", "text": "It makes me impatient to have people ask my advice or otherwise interrupt me when I am\nworking on something important." }
+    ]
+  },
+  {
+    "questionId": 149,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hatıra defteri tutardım" },
+      { "language": "en-US", "text": "I used to keep a diary." }
+    ]
+  },
+  {
+    "questionId": 150,
+    "scoringInfo": [
+      { "key": "L", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Oyunda kaybetmektense kazanmayı isterim" },
+      { "language": "en-US", "text": "I would rather win than lose in a game." }
+    ]
+  },
+  {
+    "questionId": 151,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" },
+      { "key": "Pa", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Biri beni zehirlemeye çalışıyor" },
+      { "language": "en-US", "text": "Somone has been trying to poison me." }
+    ]
+  },
+  {
+    "questionId": 152,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Pt", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğu geceler zihnimi hiçbir şey kurcalamadan uykuya dalarım" },
+      { "language": "en-US", "text": "Most nights I go to sleep without thoughts or ideas bothering me." }
+    ]
+  },
+  {
+    "questionId": 153,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Son birkaç yıl içinde sağlığım çoğu zaman iyiydi" },
+      { "language": "en-US", "text": "During the past few years I have been well most of the time." }
+    ]
+  },
+  {
+    "questionId": 154,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hiç sinir nöbeti ya da havale geçirmedim" },
+      { "language": "en-US", "text": "I have never had a fit or convulsion." }
+    ]
+  },
+  {
+    "questionId": 155,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Pd", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Ne şişmanlıyorum ne de zayıflıyorum" },
+      { "language": "en-US", "text": "I am neither gaining nor losing weight." }
+    ]
+  },
+  {
+    "questionId": 156,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bir şeyler yapıp sonra ne yaptığımı hatırlayamadığım zamanlar oldu" },
+      { "language": "en-US", "text": "I have had periods in which I carried on activities without knowing later what I had been doing." }
+    ]
+  },
+  {
+    "questionId": 157,
+    "scoringInfo": [
+      { "key": "Pa", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğu kez sebepsiz yere cezalandırıldım" },
+      { "language": "en-US", "text": "I feel that I have often been punishd without cause." }
+    ]
+  },
+  {
+    "questionId": 158,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "True" },
+      { "key": "Pa", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çabuk ağlarım" },
+      { "language": "en-US", "text": "I cry easily." }
+    ]
+  },
+  {
+    "questionId": 159,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "True" },
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "ŸOkuduğumu eskisi kadar iyi anlayamıyorum" },
+      { "language": "en-US", "text": "I cannot understand what I read as often as I used to." }
+    ]
+  },
+  {
+    "questionId": 160,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hayatımda hiç bir zaman kendimi şimdiki kadar iyi hissetmedim" },
+      { "language": "en-US", "text": "I have never felt better in my life than I do now." }
+    ]
+  },
+  {
+    "questionId": 161,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen başımda bir sizi hissederim" },
+      { "language": "en-US", "text": "The top of my head sometimes feels tender." }
+    ]
+  },
+  {
+    "questionId": 162,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Birisinin bana kurnazca oyun etmesine çok içerlerim" },
+      { "language": "en-US", "text": "I resent having anyone trick me so cleverly that I have to admit that I was fooled." }
+    ]
+  },
+  {
+    "questionId": 163,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çabucak yorulmam" },
+      { "language": "en-US", "text": "I do not tire quickly." }
+    ]
+  },
+  {
+    "questionId": 164,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "False" },
+      { "key": "Pt", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Üzerinde çalıştığım konularda okumayı ve incelemelerde bulunmayı severim" },
+      { "language": "en-US", "text": "I like to read and search about subject, I work on." }
+    ]
+  },
+  {
+    "questionId": 165,
+    "scoringInfo": [
+      { "key": "L", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Önemli kimseleri tanımayı severim, çünkü böylece kendimi de önemli bir kimse\ngibi görürüm" },
+      { "language": "en-US", "text": "I like to know some important people because it makes me feel important." }
+    ]
+  },
+  {
+    "questionId": 166,
+    "scoringInfo": [
+      { "key": "Ma", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Yüksek bir yerden aşağıya bakmaya korkarım" },
+      { "language": "en-US", "text": "I am afraid when I look down from a high place." }
+    ]
+  },
+  {
+    "questionId": 167,
+    "scoringInfo": [
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Ailemden herhangi birinin mahkemelik olması beni rahatsız etmez" },
+      { "language": "en-US", "text": "It wouldn’t make me nervous if any members of my family got into trouble with the law." }
+    ]
+  },
+  {
+    "questionId": 168,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Zihnimde bir gariplik var" },
+      { "language": "en-US", "text": "I have weirdness in my mind." }
+    ]
+  },
+  {
+    "questionId": 169,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Parayı ellemekten korkmam" },
+      { "language": "en-US", "text": "I do not afraid of touching money." }
+    ]
+  },
+  {
+    "questionId": 170,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Pd", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Başkalarının hakkımda ne düşündükleri beni rahatsız etmez" },
+      { "language": "en-US", "text": "What others think of me does not bother me." }
+    ]
+  },
+  {
+    "questionId": 171,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "Pd", "keyedResponse": "False" },
+      { "key": "Ma", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bir eğlencede başkaları yapsalar bile, ben taşkınlık yapmaktan rahatsız olurum" },
+      { "language": "en-US", "text": "It makes me uncomfortable to pull a stunt at a party even when others are doing the same sort\nof things." }
+    ]
+  },
+  {
+    "questionId": 172,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğu kez utangaçlığımı örtbas etmek ihtiyacını duyarım" },
+      { "language": "en-US", "text": "Most of the time I have an erge to cover up my shiness." }
+    ]
+  },
+  {
+    "questionId": 173,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Okulu severdim" },
+      { "language": "en-US", "text": "I liked school." }
+    ]
+  },
+  {
+    "questionId": 174,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hiç bayılma nöbeti geçirmedim" },
+      { "language": "en-US", "text": "I have never had a fainting spell." }
+    ]
+  },
+  {
+    "questionId": 175,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Pek az başım döner ya da hiç dönmez" },
+      { "language": "en-US", "text": "I seldom or never have dizzy spells." }
+    ]
+  },
+  {
+    "questionId": 176,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Yılandan büyük bir korkum yoktur" },
+      { "language": "en-US", "text": "I do not have a great fear of snakes." }
+    ]
+  },
+  {
+    "questionId": 177,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "False" },
+      { "key": "Sc", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Annem iyi bir kadındır" },
+      { "language": "en-US", "text": "My mother is a good woman, or (if your mother is dead) my mother was a good woman." }
+    ]
+  },
+  {
+    "questionId": 178,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Pt", "keyedResponse": "False" },
+      { "key": "Sc", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hafızam genellikle iyidir" },
+      { "language": "en-US", "text": "My memory seems to be all right." }
+    ]
+  },
+  {
+    "questionId": 179,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "True" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Cinsel konularda sıkıntım vardır" },
+      { "language": "en-US", "text": "I am worried about sex." }
+    ]
+  },
+  {
+    "questionId": 180,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Pd", "keyedResponse": "False" },
+      { "key": "Ma", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Yeni tanıştığım kimselerle konuşma konusu bulmada güçlük çekerim" },
+      { "language": "en-US", "text": "I find it hard to make small talk when I meet new people." }
+    ]
+  },
+  {
+    "questionId": 181,
+    "scoringInfo": [
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Canım sıkıldıkça heyecan yaratmayı severim" },
+      { "language": "en-US", "text": "When I get bored I like to stir up some excitement." }
+    ]
+  },
+  {
+    "questionId": 182,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "True" },
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Aklımı oynatmaktan korkuyorum" },
+      { "language": "en-US", "text": "I am afraid of losing my mind." }
+    ]
+  },
+  {
+    "questionId": 183,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "Pd", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Dilencilere para vermeyi doğru bulmam" },
+      { "language": "en-US", "text": "I am against giving money to beggars." }
+    ]
+  },
+  {
+    "questionId": 184,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Sık sık nereden geldiğini bilmediğim sesler duyarım" },
+      { "language": "en-US", "text": "I often hear voices without knowing where they come from." }
+    ]
+  },
+  {
+    "questionId": 185,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Herkes kadar iyi işitirim" },
+      { "language": "en-US", "text": "I hear as good as everybody does." }
+    ]
+  },
+  {
+    "questionId": 186,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bir şeyler yapmağa girişince ellerimin çok defa titrediğini fark ederim" },
+      { "language": "en-US", "text": "I frequently notice my hand shakes when I try to do something." }
+    ]
+  },
+  {
+    "questionId": 187,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" },
+      { "key": "Sc", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Ellerimde beceriksizlik ya da sakarlık yok" },
+      { "language": "en-US", "text": "My hands have not become clumsy or awkward." }
+    ]
+  },
+  {
+    "questionId": 188,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Gözlerim yorulmadan uzun süre okuyabilirim" },
+      { "language": "en-US", "text": "I can read a long while without tiring my eyes." }
+    ]
+  },
+  {
+    "questionId": 189,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "True" },
+      { "key": "D", "keyedResponse": "True" },
+      { "key": "Hy", "keyedResponse": "True" },
+      { "key": "Pt", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğu zaman bütün vücudumda bir halsizlik duyarım" },
+      { "language": "en-US", "text": "I feel tired throug my body a good deal of the time." }
+    ]
+  },
+  {
+    "questionId": 190,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Başım pek az ağrır" },
+      { "language": "en-US", "text": "I have very few headaches." }
+    ]
+  },
+  {
+    "questionId": 191,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen utanınca çok terlerim" },
+      { "language": "en-US", "text": "Sometimes, when embarrassed, I break out in a sweat, which annoys me greatly." }
+    ]
+  },
+  {
+    "questionId": 192,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Sc", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Yürürken dengemi hemen hemen hiç kaybetmem" },
+      { "language": "en-US", "text": "I have had no difficulty in keeping my balance while walking." }
+    ]
+  },
+  {
+    "questionId": 193,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "True" },
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Saman nezlesi ya da astım nöbetlerim yoktur" },
+      { "language": "en-US", "text": "I do not have spells of hay fever or asthma." }
+    ]
+  },
+  {
+    "questionId": 194,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "True" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hareketlerimi ve konuşmamı kontrol edemediğim fakat etrafımda olup bitenden\nhaberdar olduğum nöbetler geçirdiğim oldu" },
+      { "language": "en-US", "text": "I have had attacks in which I could not control my movements or speech, but in which I knew\nwhat was going on around me." }
+    ]
+  },
+  {
+    "questionId": 195,
+    "scoringInfo": [
+      { "key": "L", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Tanıdığım herkesi sevmem" },
+      { "language": "en-US", "text": "I do not like everyone I know." }
+    ]
+  },
+  {
+    "questionId": 196,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "False" },
+      { "key": "Sc", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hiç görmediğim yerlere gitmekten hoşlanırım" },
+      { "language": "en-US", "text": "I like to see places I have never seen before." }
+    ]
+  },
+  {
+    "questionId": 197,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Biri beni soymaya her şeyimi almaya çalışıyor" },
+      { "language": "en-US", "text": "someone try to rob me and take my everything." }
+    ]
+  },
+  {
+    "questionId": 198,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çok az hayal kurarım" },
+      { "language": "en-US", "text": "I daydream very little." }
+    ]
+  },
+  {
+    "questionId": 199,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çocuklara cinsiyetle ilgili temel gerçekler öğretilmelidir" },
+      { "language": "en-US", "text": "Children should be taught all the main facts of sex." }
+    ]
+  },
+  {
+    "questionId": 200,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Fikir ve düşüncelerimi çalmak isteyen biri var" },
+      { "language": "en-US", "text": "There are persons who are trying to steal my thoughts and ideas." }
+    ]
+  },
+
+  {
+    "questionId": 201,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Pd", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Keşke bu kadar utangaç olmasam" },
+      { "language": "en-US", "text": "I wish I were not so shy." }
+    ]
+  },
+  {
+    "questionId": 202,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" },
+      { "key": "Pa", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kendimi cezayı hak etmiş suçlu bir insan olarak görüyorum" },
+      { "language": "en-US", "text": "I see myself as criminal who deserve to be punished." }
+    ]
+  },
+  {
+    "questionId": 203,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Gazeteci olmak isterdim" },
+      { "language": "en-US", "text": "I would like to be a journalist." }
+    ]
+  },
+  {
+    "questionId": 204,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Gazeteci olmasaydım daha çok tiyatro haberleri yazmaktan hoşlanırdım" },
+      { "language": "en-US", "text": "If I were a reporter, I would very much like to report news of the theatre." }
+    ]
+  },
+  {
+    "questionId": 205,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen çalmaktan ya da dükkanlardan eşya aşırmaktan kendimi alamam" },
+      { "language": "en-US", "text": "I can not keep myself away from shoplifting." }
+    ]
+  },
+  {
+    "questionId": 206,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bir çok kimseden daha dindarımdır" },
+      { "language": "en-US", "text": "I am more religieuse than a lot of people." }
+    ]
+  },
+  {
+    "questionId": 207,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çeşitli oyun ve eğlencelerden hoşlanırım" },
+      { "language": "en-US", "text": "I enjoy many different kinds of play and recreation." }
+    ]
+  },
+  {
+    "questionId": 208,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Flört etmeyi severim" },
+      { "language": "en-US", "text": "I like to flirt." }
+    ]
+  },
+  {
+    "questionId": 209,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Günahlarımın affedilmeyeceğine inanıyorum" },
+      { "language": "en-US", "text": "I believe that I will not be forgiven because of my sins." }
+    ]
+  },
+  {
+    "questionId": 210,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Her şeyin tanı aynı geliyor" },
+      { "language": "en-US", "text": "Everything tastes the same." }
+    ]
+  },
+  {
+    "questionId": 211,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Gündüzleri uyuyabilirim fakat gündüzleri uyuyamam" },
+      { "language": "en-US", "text": "I can sleep during the day, but not at night." }
+    ]
+  },
+  {
+    "questionId": 212,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "True" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Evdekiler bana çocuk muamelesi yapıyor" },
+      { "language": "en-US", "text": "My family treat me more like a child than a grown-up." }
+    ]
+  },
+  {
+    "questionId": 213,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Yürürken kaldırımdaki yarıklara basmamaya dikkat ederim" },
+      { "language": "en-US", "text": "In walking, I am very careful to step over sidewalk cracks." }
+    ]
+  },
+  {
+    "questionId": 214,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Cildimde üzülmeye değer kabarıklık ya da sivilce yok" },
+      { "language": "en-US", "text": "I have never had any breaking out on my skin that has worried me." }
+    ]
+  },
+  {
+    "questionId": 215,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" },
+      { "key": "Pd", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çok içki kullandım" },
+      { "language": "en-US", "text": "I have used alcohol excessively." }
+    ]
+  },
+  {
+    "questionId": 216,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Başka ailelere göre bizim evde sevgi ve arkadaşlık pek azdır" },
+      { "language": "en-US", "text": "There is very little love and companionship in my family as compared to other homes." }
+    ]
+  },
+  {
+    "questionId": 217,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" },
+      { "key": "Pt", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Sık sık kendime bir şeyleri dert edinirim" },
+      { "language": "en-US", "text": "I frequently find myself worrying about something." }
+    ]
+  },
+  {
+    "questionId": 218,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hayvanların eziyet çektiğini görmek beni üzmez" },
+      { "language": "en-US", "text": "It does not bother me particularly to see animals suffer." }
+    ]
+  },
+  {
+    "questionId": 219,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "İnşaat mütahitliğinden hoşlanacağımı sanıyorum" },
+      { "language": "en-US", "text": "I tink Iwould like the work of a building contractor." }
+    ]
+  },
+  {
+    "questionId": 220,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "False" },
+      { "key": "Sc", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Annemi çok severim" },
+      { "language": "en-US", "text": "I love my mother, or (if your mother is dead) I loved my mother." }
+    ]
+  },
+  {
+    "questionId": 221,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bilimden hoşlanırım" },
+      { "language": "en-US", "text": "I like science." }
+    ]
+  },
+  {
+    "questionId": 222,
+    "scoringInfo": [
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Karşılığını veremeyeceğim durumlarda bile arkadaşlarımdan yardım istemekte\ngüçlük çekmem" },
+      { "language": "en-US", "text": "It is not hard for me to ask for help from my friends even though I cannot return the favor." }
+    ]
+  },
+  {
+    "questionId": 223,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Avlanmayı çok severim" },
+      { "language": "en-US", "text": "I very much like hunting." }
+    ]
+  },
+  {
+    "questionId": 224,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Annem babam hep beraber olduğum kimselerden çok defa hoşlanmıyorlar" },
+      { "language": "en-US", "text": "My parents often objected to the kind of people I went around with." }
+    ]
+  },
+  {
+    "questionId": 225,
+    "scoringInfo": [
+      { "key": "L", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen biraz dedikodu yaptığım olur" },
+      { "language": "en-US", "text": "I gossip a little at times." }
+    ]
+  },
+  {
+    "questionId": 226,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Ailemdeki bazı kimselerde canımı çok sıkan alışkanlıklar var" },
+      { "language": "en-US", "text": "Some members of my family have habits that bother and annoy me very much." }
+    ]
+  },
+  {
+    "questionId": 227,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Uykuda gezdiğimi söylerler" },
+      { "language": "en-US", "text": "I have been told that I walk during sleep." }
+    ]
+  },
+  {
+    "questionId": 228,
+    "scoringInfo": [
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen alışılmamış bir kolaylıkla karar verebileceğimi hissediyorum" },
+      { "language": "en-US", "text": "At times I feel that I can make up my mind with unusually great ease." }
+    ]
+  },
+  {
+    "questionId": 229,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" },
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çeşitli klüp ve derneklere üye olmak isterim" },
+      { "language": "en-US", "text": "I would like to belong to several clubs." }
+    ]
+  },
+  {
+    "questionId": 230,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kalbimin hızlı çarptığını hemen hemen hiç hissetmem ve çok seyrek nefesim\ntıkanır" },
+      { "language": "en-US", "text": "I hardly ever notice my heart pounding and I am seldom short of breath." }
+    ]
+  },
+  {
+    "questionId": 231,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "False" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" },
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Cinsiyet hakkında konuşmayı severim" },
+      { "language": "en-US", "text": "I like to talk about sex." }
+    ]
+  },
+  {
+    "questionId": 232,
+    "scoringInfo": [
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen üzerime çok fazla iş alırım" },
+      { "language": "en-US", "text": "Sometimes I put too much work on myself." }
+    ]
+  },
+  {
+    "questionId": 233,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Pek çok insan karşı çıksa da kendi fikrimi sonuna kadar savunurum" },
+      { "language": "en-US", "text": "I defend my own opinions eventhough so many people against it." }
+    ]
+  },
+  {
+    "questionId": 234,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çabuk kızar ve çabuk unuturum" },
+      { "language": "en-US", "text": "I get mad easily and then get over it soon." }
+    ]
+  },
+  {
+    "questionId": 235,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Aile kurallarından oldukça bağımsız ve özgürüm" },
+      { "language": "en-US", "text": "I have been quite independent and free from family rule." }
+    ]
+  },
+  {
+    "questionId": 236,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "True" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Sıklıkla kara kara düşünürüm" },
+      { "language": "en-US", "text": "I brood a great deal." }
+    ]
+  },
+  {
+    "questionId": 237,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Akrabalarımın hemen hepsi bana karşı anlayış gösterir" },
+      { "language": "en-US", "text": "My relatives are nearly all in sympathy with me." }
+    ]
+  },
+  {
+    "questionId": 238,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "True" },
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Zaman zaman perimde duramayacak huzursuzluk duyduğum devreler olur" },
+      { "language": "en-US", "text": "I have periods of such great restlessness that I cannot sit long in a chair." }
+    ]
+  },
+  {
+    "questionId": 239,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "True" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Aşkta hayal kırıklığına uğradım" },
+      { "language": "en-US", "text": "I have been disappointed in love." }
+    ]
+  },
+  {
+    "questionId": 240,
+    "scoringInfo": [
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Görünüşüme hiç aldırmam" },
+      { "language": "en-US", "text": "I never worry about my looks." }
+    ]
+  },
+  {
+    "questionId": 241,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kendi içimde tutup başkalarına söylenemeyen şeyler hakkında sık sık rüya\ngörürüm" },
+      { "language": "en-US", "text": "I dream frequently about things that are best kept to myself." }
+    ]
+  },
+  {
+    "questionId": 242,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bir çoklarından daha sinirli sayılmam" },
+      { "language": "en-US", "text": "I believe I am no more nervous that most others." }
+    ]
+  },
+  {
+    "questionId": 243,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hemen hemen hiç bir ağrı ve sızım yok" },
+      { "language": "en-US", "text": "I have few or no pains." }
+    ]
+  },
+  {
+    "questionId": 244,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Davranışlarım başkalarınca yanlış anlaşılmaya elverişlidir" },
+      { "language": "en-US", "text": "My way of doing things is apt to be misunderstood by others." }
+    ]
+  },
+  {
+    "questionId": 245,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" },
+      { "key": "Pd", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Ailem beni olduğumdan daha hatalı bulur" },
+      { "language": "en-US", "text": "My parents and family find more fault with me than they should." }
+    ]
+  },
+  {
+    "questionId": 246,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Boynumda sık sık kırmızı lekeler olur" },
+      { "language": "en-US", "text": "My neck spots with red often." }
+    ]
+  },
+  {
+    "questionId": 247,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kimseden sevgi görmüyorum" },
+      { "language": "en-US", "text": "I do not see any love affection from anyone." }
+    ]
+  },
+  {
+    "questionId": 248,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Pd", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen ortada hiç bir neden yokken hatta işler kötüye gittiği zaman bile kendimi\nfazlasıyla mutlu hissederim" },
+      { "language": "en-US", "text": "Sometimes without any reason or even when things are going wrong, I feel excitedly happy or\n“on top of the world”." }
+    ]
+  },
+  {
+    "questionId": 249,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Öbür dünyada şeytan ve cehennem olduğuna inanırım" },
+      { "language": "en-US", "text": "I believe in afterlife and demon." }
+    ]
+  },
+  {
+    "questionId": 250,
+    "scoringInfo": [
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hayatta önüne her geleni kapmağa çalışan insanları suçlamam" },
+      { "language": "en-US", "text": "I don’t blame people for trying to grab everything they can get in this world." }
+    ]
+  },
+  {
+    "questionId": 251,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "True" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kendimi kaybedip yaptığım işi aksattığım ve etrafımda olup bitenlerin farkında\nolmadığım zamanlar oldu" },
+      { "language": "en-US", "text": "I have had blank spells in which my activities were interrupted and I did not know what was\ngoing on around me." }
+    ]
+  },
+  {
+    "questionId": 252,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hiç kimse başkasının derdine aldırış etmiyor" },
+      { "language": "en-US", "text": "Nobody cares about anybody’s problems." }
+    ]
+  },
+  {
+    "questionId": 253,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hatalı davranışlarını görsem bile insanlara arkadaşça davranabilirim" },
+      { "language": "en-US", "text": "I can be fiendly with people who do things that I consider wrong." }
+    ]
+  },
+  {
+    "questionId": 254,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" },
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Birbiriyle şakalaşan kimseler arasında olmayı severim" },
+      { "language": "en-US", "text": "I like to be with a crowd who play jokes on one another." }
+    ]
+  },
+  {
+    "questionId": 255,
+    "scoringInfo": [
+      { "key": "L", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Seçimlerde bazen oyumu pek az tanıdığım kimselere veririm" },
+      { "language": "en-US", "text": "Sometimes in elections, I vote for people about whom I know very little." }
+    ]
+  },
+  {
+    "questionId": 256,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Gazetelerin ilgi çeken tek yeri resimli mizah sayfasıdır" },
+      { "language": "en-US", "text": "The only interesting part of newspapers is the comic strips." }
+    ]
+  },
+  {
+    "questionId": 257,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Yaptığım işlerde genel olarak başarı elde edeceğime inanırım" },
+      { "language": "en-US", "text": "I usually expect to succeed in things I do." }
+    ]
+  },
+  {
+    "questionId": 258,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Allah’ın varlığına inanırım" },
+      { "language": "en-US", "text": "I believe in god." }
+    ]
+  },
+  {
+    "questionId": 259,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "İşe başlamada güçlük çekerim" },
+      { "language": "en-US", "text": "I have difficulty in starting to do things." }
+    ]
+  },
+  {
+    "questionId": 260,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "øOkulda iken ağır öğrenenlerden biri idim" },
+      { "language": "en-US", "text": "I was a slow learner in school." }
+    ]
+  },
+  {
+    "questionId": 261,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Ressam olsaydım çiçek resimleri yapardım" },
+      { "language": "en-US", "text": "If I were an artist, I would like to draw flowers." }
+    ]
+  },
+  {
+    "questionId": 262,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" },
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Daha güzel olmamam beni rahatsız etmez" },
+      { "language": "en-US", "text": "It does not bother me that I am not better looking." }
+    ]
+  },
+  {
+    "questionId": 263,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Soğuk günlerde bile kolayca terlerim" },
+      { "language": "en-US", "text": "I sweat very easily, even on cool days." }
+    ]
+  },
+  {
+    "questionId": 264,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kendime tam anlamıyla güvenim vardır" },
+      { "language": "en-US", "text": "I completely trust myself." }
+    ]
+  },
+  {
+    "questionId": 265,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hiç kimseye güvenmemek en doğrusudur" },
+      { "language": "en-US", "text": "It is safer to trust nobody." }
+    ]
+  },
+  {
+    "questionId": 266,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Haftada bir ya da sık, çok heyecanlanırım" },
+      { "language": "en-US", "text": "Once a week or more, I become very excited." }
+    ]
+  },
+  {
+    "questionId": 267,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Pd", "keyedResponse": "False" },
+      { "key": "Ma", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Topluluk içinde olduğumda üzerinde konuşacak uygun konular bulmada güçlük\nçekerim" },
+      { "language": "en-US", "text": "When in a group of people, I have trouble thinking of the right thing to say." }
+    ]
+  },
+  {
+    "questionId": 268,
+    "scoringInfo": [
+      { "key": "Pa", "keyedResponse": "False" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Karamsar olduğum zaman heyecanlı bir olay hemen beni bu durumdan çıkarır" },
+      { "language": "en-US", "text": "Something exciting will almost always pull me out of it when I am feeling low." }
+    ]
+  },
+  {
+    "questionId": 269,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen zevk için başkalarını kendimden korkuturum" },
+      { "language": "en-US", "text": "I can easily make other people afraid of me, and sometimes do it for the fun of it." }
+    ]
+  },
+  {
+    "questionId": 270,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Evden çıkarken kapının kilitli ve pencerenin kapalı olup olmadığı aklıma takılmaz" },
+      { "language": "en-US", "text": "When I leave home, I do not worry about whether the door is locked and the windows are\nclosed." }
+    ]
+  },
+  {
+    "questionId": 271,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Başkalarının saflığını kendi çıkarlarında kullanan kimseleri ayıplamam" },
+      { "language": "en-US", "text": "I do not blame a person for taking advantage of people who leave themselves open to anyharm." }
+    ]
+  },
+  {
+    "questionId": 272,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "False" },
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "D", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen kendimi enerji dolu hissederim" },
+      { "language": "en-US", "text": "At times I am all full of energy." }
+    ]
+  },
+  {
+    "questionId": 273,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Derimin bazı yerlerinde uyuşukluk hissederim" },
+      { "language": "en-US", "text": "I have numbness in one or more places on my skin." }
+    ]
+  },
+  {
+    "questionId": 274,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "Hy", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Görme gücüm eskisi kadar kuvvetlidir" },
+      { "language": "en-US", "text": "My eyesight is as good as it has been for years." }
+    ]
+  },
+  {
+    "questionId": 275,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" },
+      { "key": "Pa", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Birisi zihnimi kontrol ediyor" },
+      { "language": "en-US", "text": "Someone has control over my mind." }
+    ]
+  },
+  {
+    "questionId": 276,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "False" },
+      { "key": "Sc", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çocukları severim" },
+      { "language": "en-US", "text": "I enjoy children." }
+    ]
+  },
+  {
+    "questionId": 277,
+    "scoringInfo": [
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen bir madrabazın kurnazlığı beni o kadar eğlendirir ki, yakayı ele\nvermemesini dilerim" },
+      { "language": "en-US", "text": "At times I have been so entertained by the cleverness of some criminals that I have hopes they\nwould get away with it." }
+    ]
+  },
+  {
+    "questionId": 278,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çok defa tanımadığım kimselerin bana eleştirici gözle baktıklarını hissederim" },
+      { "language": "en-US", "text": "I have often felt that strangers were looking at me critically." }
+    ]
+  },
+  {
+    "questionId": 279,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Her gün gereğinden fazla su içerim" },
+      { "language": "en-US", "text": "I drink an unusually large amount of water every day." }
+    ]
+  },
+  {
+    "questionId": 280,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bir çok kimseler kendilerine yararı dokunacağı için arkadaş edinirler" },
+      { "language": "en-US", "text": "Most people make friends because friends are likely to be useful to them." }
+    ]
+  },
+  {
+    "questionId": 281,
+    "scoringInfo": [
+      { "key": "Hs", "keyedResponse": "False" },
+      { "key": "Pa", "keyedResponse": "False" },
+      { "key": "Sc", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kulaklarım çok az çınlar ya da uğuldar" },
+      { "language": "en-US", "text": "I do not often notice my ears ringing or buzzing." }
+    ]
+  },
+  {
+    "questionId": 282,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Genellikle sevdiğim aile üyelerine karşı bazen nefret duyarım" },
+      { "language": "en-US", "text": "Once in a while I feel hate toward members of my family whom I usually love." }
+    ]
+  },
+  {
+    "questionId": 283,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Gazete muhabiri olsaydım en çok spor haberleri yazmayı isterdim" },
+      { "language": "en-US", "text": "If I were a reporter I would very much like to report sporting news." }
+    ]
+  },
+  {
+    "questionId": 284,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "True" },
+      { "key": "Pa", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hakkımda çok konuşulduğumdan eminim" },
+      { "language": "en-US", "text": "I am sure I am being talked about." }
+    ]
+  },
+  {
+    "questionId": 285,
+    "scoringInfo": [
+      { "key": "L", "keyedResponse": "False" },
+      { "key": "D", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Ara sıra açık saçık bir fıkraya güldüğüm olur" },
+      { "language": "en-US", "text": "Once in a while, I laugh at a dirty joke." }
+    ]
+  },
+  {
+    "questionId": 286,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "En çok yalnız olduğum zaman mutlu olurum" },
+      { "language": "en-US", "text": "I am happiest when I am alone." }
+    ]
+  },
+  {
+    "questionId": 287,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Arkadaşlarıma kıyasla beni korkutan şeyler çok azdır" },
+      { "language": "en-US", "text": "I have very few fears compared to my friends." }
+    ]
+  },
+  {
+    "questionId": 288,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Tekrarlanan mide bulantısı ve kusmalar bana sıkıntı verir" },
+      { "language": "en-US", "text": "I am troubled by chronical attacks of nausea and vomiting" }
+    ]
+  },
+  {
+    "questionId": 289,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Pd", "keyedResponse": "False" },
+      { "key": "Ma", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bir suçlu avukatının becerikliliği sayesinde cezadan kurtulunca kanunlara karşı\ndaima nefret duyarım" },
+      { "language": "en-US", "text": "I am always disgusted with the law when a criminal is freed through the arguments of a smart\nlawyer." }
+    ]
+  },
+  {
+    "questionId": 290,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Çok gergin bir hava içinde çalışıyorum" },
+      { "language": "en-US", "text": "I work in a very tense environment." }
+    ]
+  },
+  {
+    "questionId": 291,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" },
+      { "key": "Pa", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hayatımda bir ya da birkaç kere birisinin beni hipnotize ederek bana bir şeyler\nyaptığını hissettim" },
+      { "language": "en-US", "text": "At one or more times in my life I felt that someone was making me do things by hypnotizing me." }
+    ]
+  },
+  {
+    "questionId": 292,
+    "scoringInfo": [
+      { "key": "Hy", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Başkaları benimle konuşuncaya kadar ben onlarla konuşmaya başlamam" },
+      { "language": "en-US", "text": "I am likely not to speak to people until they speak to me." }
+    ]
+  },
+  {
+    "questionId": 293,
+    "scoringInfo": [
+      { "key": "F", "keyedResponse": "True" },
+      { "key": "Pa", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Birisi zihnimi etkilemeye çalışıyor" },
+      { "language": "en-US", "text": "Someone has been trying to influence my mind." }
+    ]
+  },
+  {
+    "questionId": 294,
+    "scoringInfo": [
+      { "key": "Pd", "keyedResponse": "False" },
+      { "key": "Pa", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kanunla hiç başım derde girmedi" },
+      { "language": "en-US", "text": "I have never been in trouble with the law." }
+    ]
+  },
+  {
+    "questionId": 295,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Masal okumayı severim" },
+      { "language": "en-US", "text": "I like reading fairytales." }
+    ]
+  },
+  {
+    "questionId": 296,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "D", "keyedResponse": "False" },
+      { "key": "Pd", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hiçbir neden yokken kendimi son derecede neşeli hissettiğim zamanlar olur" },
+      { "language": "en-US", "text": "I have periods in which I feel unusually cheerful without any special reason." }
+    ]
+  },
+  {
+    "questionId": 297,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Cinsiyetle ilgili düşünceler beni rahatsız eder" },
+      { "language": "en-US", "text": "I wish I were not bothered by thoughts about sex." }
+    ]
+  },
+  {
+    "questionId": 298,
+    "scoringInfo": [
+      { "key": "Ma", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Birkaç kişinin birlikte başları derde girince en iyisi yakalarını kurtarmak için aynı\nhikayeyi uydurmak ve bundan caymamaktır" },
+      { "language": "en-US", "text": "If several people find themselves in trouble, the best thing for them to do is agree upon a story\nand stick to it." }
+    ]
+  },
+  {
+    "questionId": 299,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "True", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "True", "gender": "Female" },
+      { "key": "Pa", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Duygularımın birçok kimselerden yoğun olduğunu düşünürüm" },
+      { "language": "en-US", "text": "I think that I feel more intensely than most people do." }
+    ]
+  },
+  {
+    "questionId": 300,
+    "scoringInfo": [
+      { "key": "Mf", "keyedResponse": "False", "gender": "Male" },
+      { "key": "Mf", "keyedResponse": "False", "gender": "Female" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hayatımda hiçbir zaman bebek oynamaktan hoşlanmadım" },
+      { "language": "en-US", "text": "There was never a time in my life when I liked to play with dolls." }
+    ]
+  },
+
+
+
+  {
+    "questionId": 301,
+    "scoringInfo": [
+      { "key": "D", "keyedResponse": "True" },
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğu zaman hayat benim için bir yüktür" },
+      { "language": "en-US", "text": "Life is a burden for me much of the time." }
+    ]
+  },
+  {
+    "questionId": 302,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Cinsel davranışlarımdan dolayı hiçbir zaman başım derde girmedi" },
+      { "language": "en-US", "text": "I have never got in troble because of my sexual behavior." }
+    ]
+  },
+  {
+    "questionId": 303,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazı konularda o kadar alınganım ki onlar hakkında konuşmam bile" },
+      { "language": "en-US", "text": "I am so touchy on some subjects that I can’t talk about them." }
+    ]
+  },
+  {
+    "questionId": 304,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Okulda sınıf karşısında konuşma bana çok güç gelirdi" },
+      { "language": "en-US", "text": "In school I found it very hard to talk in front of the class." }
+    ]
+  },
+  {
+    "questionId": 305,
+    "scoringInfo": [
+      { "key": "Pa", "keyedResponse": "True" },
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Başkalarıyla beraber olduğum zaman bile kendimi yalnız hissederim" },
+      { "language": "en-US", "text": "Even when I am with people I feel lonely much of the time." }
+    ]
+  },
+  {
+    "questionId": 306,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bana karşı mümkün olan anlayış gösteriliyor" },
+      { "language": "en-US", "text": "I get all the sympathy I should." }
+    ]
+  },
+  {
+    "questionId": 307,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "İyi beceremediğim oyunları oynamağa yanaşmam" },
+      { "language": "en-US", "text": "I refuse to play some games because I am not good at them." }
+    ]
+  },
+  {
+    "questionId": 308,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Zaman zaman evi bırakıp gitmeyi çok istemişimdir" },
+      { "language": "en-US", "text": "From time to time I have very much wanted to leave home." }
+    ]
+  },
+  {
+    "questionId": 309,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Birçokları kadar çabuk arkadaş edinebildiğimi sanıyorum" },
+      { "language": "en-US", "text": "I seem to make friends about as quickly as others do." }
+    ]
+  },
+  {
+    "questionId": 310,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Cinsel hayatım doyurucudur" },
+      { "language": "en-US", "text": "My sexual life is satisfying." }
+    ]
+  },
+  {
+    "questionId": 311,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Gençlik yıllarımda bir devre ufak tefek şeyler çaldım" },
+      { "language": "en-US", "text": "I stole small things when I was youngish." }
+    ]
+  },
+  {
+    "questionId": 312,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "İnsanların arasında olmaktan hiç hoşlanmam" },
+      { "language": "en-US", "text": "I dislike having people around me." }
+    ]
+  },
+  {
+    "questionId": 313,
+    "scoringInfo": [
+      { "key": "Pa", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Değerli eşyasını tedbirsizce ortada bırakıp çalınmasına neden olan kimse bunu\nçalan kadar hatalıdır" },
+      { "language": "en-US", "text": "The person who provides temptation by leaving valuable property unprotected is about as much\nto blame for its theft as the one who steals it." }
+    ]
+  },
+  {
+    "questionId": 314,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Ara sıra söylenemeyecek kadar kötü şeyler düşünürüm" },
+      { "language": "en-US", "text": "Once in a while I think of things too bad to talk about" }
+    ]
+  },
+  {
+    "questionId": 315,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Hayatın hep kötü tarafları bana nasip olmuştur" },
+      { "language": "en-US", "text": "I always get the bad side of the life." }
+    ]
+  },
+  {
+    "questionId": 316,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "Pa", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hemen hemen herkesin başını derde sokmamak için yalan söyleyebileceğine\ninanırım" },
+      { "language": "en-US", "text": "I think nearly anyone would tell a lie to keep out of trouble." }
+    ]
+  },
+  {
+    "questionId": 317,
+    "scoringInfo": [
+      { "key": "Pa", "keyedResponse": "True" },
+      { "key": "Pt", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Birçok kimselerden daha hassasım" },
+      { "language": "en-US", "text": "I am more sensitive than most people." }
+    ]
+  },
+  {
+    "questionId": 318,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Günlük hayatım beni ilgilendiren şeylerle dolu" },
+      { "language": "en-US", "text": "My daily life is full of things that keep me interested." }
+    ]
+  },
+  {
+    "questionId": 319,
+    "scoringInfo": [
+      { "key": "Pa", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "İnsanların çoğu başkalarına yardım etmek için zahmete girmekten hoşlanmazlar" },
+      { "language": "en-US", "text": "Most people inwardly dislike putting themselves out to help other people." }
+    ]
+  },
+  {
+    "questionId": 320,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Rüyalarımın çoğu cinsel konularla ilgilidir" },
+      { "language": "en-US", "text": "Many of my dreams are about sex." }
+    ]
+  },
+  {
+    "questionId": 321,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kolaylıkla mahcup olurum" },
+      { "language": "en-US", "text": "I am easily embarrassed." }
+    ]
+  },
+  {
+    "questionId": 322,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "Sc", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Para ve işi kendime dert edinirim" },
+      { "language": "en-US", "text": "I worry over money and business." }
+    ]
+  },
+  {
+    "questionId": 323,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Başımdan çok tuhaf ve acayip olaylar geçmiştir" },
+      { "language": "en-US", "text": "I have been through so many bizarre and weird thing in life." }
+    ]
+  },
+  {
+    "questionId": 324,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hiç kimseye aşık olmadım" },
+      { "language": "en-US", "text": "I have never been in love with anyone." }
+    ]
+  },
+  {
+    "questionId": 325,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Ailemin yaptığı bazı şeyler beni korkutmuştur" },
+      { "language": "en-US", "text": "The things that some of my family have done have frightened me." }
+    ]
+  },
+  {
+    "questionId": 326,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen kontrol edemediğim gülme ve ağlama nöbetlerine tutulurum" },
+      { "language": "en-US", "text": "Sometimes I have fits of laughing & crying that I cannot control" }
+    ]
+  },
+  {
+    "questionId": 327,
+    "scoringInfo": [
+      { "key": "Pa", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Annem ya da babam çok defa beni makul bulmadığım emirlere bile itaat ettirdiler" },
+      { "language": "en-US", "text": "My mother or father often made me obey even when I thought it was unreasonable." }
+    ]
+  },
+  {
+    "questionId": 328,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Zihnimi bir konu ya da iş üzerinde toplamakta güçlük çekerim" },
+      { "language": "en-US", "text": "I struggle keeping my mind on one thing or work." }
+    ]
+  },
+  {
+    "questionId": 329,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hemen hemen hiç rüya görmedim" },
+      { "language": "en-US", "text": "I almost never dream." }
+    ]
+  },
+  {
+    "questionId": 330,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hiç felç geçirmedim ya da kaslarımda olağan üstü bir halsizlik duymadım" },
+      { "language": "en-US", "text": "I have never been paralyzed or had any unusual weakness of any of my muscles." }
+    ]
+  },
+  {
+    "questionId": 331,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Eğer insanlar sırf düşmanlık olsun diye beni engellemeselerdi daha başarılı\nolurdum" },
+      { "language": "en-US", "text": "If people had not been in the way just because out of hostility, I would have been much more\nsuccessful." }
+    ]
+  },
+  {
+    "questionId": 332,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "True" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen nezle olmadığım halde sesim çıkmaz ya da değişir" },
+      { "language": "en-US", "text": "Sometimes my voice leaves me or changes even though I have no cold." }
+    ]
+  },
+  {
+    "questionId": 333,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Beni hiç kimse anlamıyor" },
+      { "language": "en-US", "text": "Nobody understands me." }
+    ]
+  },
+  {
+    "questionId": 334,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen tuhaf korkular duyarım" },
+      { "language": "en-US", "text": "Sometimes I smell strange scent.(odour)" }
+    ]
+  },
+  {
+    "questionId": 335,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Zihnimi bir konu üzerinde toplayamam" },
+      { "language": "en-US", "text": "I cannot keep my mind on one thing." }
+    ]
+  },
+  {
+    "questionId": 336,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "İnsanlara karşı sabrım çabuk tükenir" },
+      { "language": "en-US", "text": "I easily become impatient with people." }
+    ]
+  },
+  {
+    "questionId": 337,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğunlukla bir takım şeyler ve kimseler için meraklanıp huzursuzlaşırım" },
+      { "language": "en-US", "text": "I feel anxiety about something or someone almost all the time." }
+    ]
+  },
+  {
+    "questionId": 338,
+    "scoringInfo": [
+      { "key": "Pa", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hayatımın çoğu kimselerinkinden daha fazla tasa ve kaygı içinde geçtiğine\neminim" },
+      { "language": "en-US", "text": "I have certainly had my share of things to worry about in life more than other people." }
+    ]
+  },
+  {
+    "questionId": 339,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğu zaman ölmüş olmayı isterdim" },
+      { "language": "en-US", "text": "Most of the time I wish I were dead." }
+    ]
+  },
+  {
+    "questionId": 340,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen o kadar heyecanlanırım ki uykuya dalmam güçleşir" },
+      { "language": "en-US", "text": "Sometimes I become so excited that I find it hard to get to sleep." }
+    ]
+  },
+  {
+    "questionId": 341,
+    "scoringInfo": [
+      { "key": "Pa", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen beni rahatsız edecek kadar iyi işitirim" },
+      { "language": "en-US", "text": "At times I hear so well that it bothers me." }
+    ]
+  },
+  {
+    "questionId": 342,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bana söyleneni hemen unuturum" },
+      { "language": "en-US", "text": "I forget right away what people say to me." }
+    ]
+  },
+  {
+    "questionId": 343,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Önemsiz ufak şeylerde bile karar verip işe girişmeden önce durur ve düşünürüm" },
+      { "language": "en-US", "text": "I usually have to stop and think before I act, even in small matters." }
+    ]
+  },
+  {
+    "questionId": 344,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Gördüğüm kimse ile karşılaşmamak için sıklıkla yolumu değiştiririm" },
+      { "language": "en-US", "text": "Often I cross the street in order not to meet someone I see." }
+    ]
+  },
+  {
+    "questionId": 345,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Sıklıkla olup bitenler bana gerçek değilmiş gibi gelir" },
+      { "language": "en-US", "text": "I often feel as if things are not real." }
+    ]
+  },
+  {
+    "questionId": 346,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Reklamlardaki ampuller gibi önemsiz şeyleri sayma alışkanlığım vardır" },
+      { "language": "en-US", "text": "I have a habit of counting things that are not important, such as bulbs on electric signs and so\nforth." }
+    ]
+  },
+  {
+    "questionId": 347,
+    "scoringInfo": [
+      { "key": "Pa", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bana gerçekten kötülük yapmak isteyen hiç bir düşmanım yoktur" },
+      { "language": "en-US", "text": "I have no enemies who really wish to harm me." }
+    ]
+  },
+  {
+    "questionId": 348,
+    "scoringInfo": [
+      { "key": "Pa", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bana umduğumdan fazla dostluk gösteren insanlara karşı tetikte bulunmağa\nçalışırım" },
+      { "language": "en-US", "text": "I tend to be on my guard with people who are somewhat friendlier than I had expected." }
+    ]
+  },
+  {
+    "questionId": 349,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Acayip ve tuhaf düşüncelerim vardır" },
+      { "language": "en-US", "text": "I have strange and peculiar thoughts." }
+    ]
+  },
+  {
+    "questionId": 350,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Yalnızken garip şeyler duyarım" },
+      { "language": "en-US", "text": "I hear strange things when I am alone." }
+    ]
+  },
+  {
+    "questionId": 351,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Küçük bir seyahat için bile evden ayrılırken telaşlanır ve kaygılanırım" },
+      { "language": "en-US", "text": "I get anxious and upset when I have to make a short trip away from home." }
+    ]
+  },
+  {
+    "questionId": 352,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Beni incitmeyeceğini bildiğim şeylerden ya da insanlardan bile korktuğum oldu" },
+      { "language": "en-US", "text": "I have been afraid of things or people that I knew could not hurt me." }
+    ]
+  },
+  {
+    "questionId": 353,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Başkalarının daha önce toplanıp konuştuğu odaya girmekten çekinmem" },
+      { "language": "en-US", "text": "I have no dread of going into a room by myself where other people have already gathered and\nare talking." }
+    ]
+  },
+  {
+    "questionId": 354,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bıçak gibi çok keskin ve sivri şeyler kullanmaktan korkarım" },
+      { "language": "en-US", "text": "I am afraid of a knife or anything very sharp or pointed." }
+    ]
+  },
+  {
+    "questionId": 355,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Sevdiğim kimseleri bazen incitmekten hoşlanırım" },
+      { "language": "en-US", "text": "Sometimes I enjoy hurting persons I love." }
+    ]
+  },
+  {
+    "questionId": 356,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Dikkatimi bir konu üzerinde toplamada birçok kişiden daha fazla güçlük çekerim" },
+      { "language": "en-US", "text": "I have more trouble concentrating than others seem to have." }
+    ]
+  },
+  {
+    "questionId": 357,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Yeteneğimi küçümsediğim için birçok defalar başladığım işi yarıda bıraktım" },
+      { "language": "en-US", "text": "I have several times given up doing a thing because I thought too little of my ability." }
+    ]
+  },
+  {
+    "questionId": 358,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kötü ve çok defa korkunç kelimeler zihnimi kurcalar ve bunlardan kendimi\nkurtaramam" },
+      { "language": "en-US", "text": "Bad words, often terrible words, come into my mind and I cannot get rid of them." }
+    ]
+  },
+  {
+    "questionId": 359,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen önemsiz düşünceler aklımdan geçer ve beni günlerce rahatsız eder" },
+      { "language": "en-US", "text": "Sometimes some unimportant thought will run through my mind and bother me for days." }
+    ]
+  },
+  {
+    "questionId": 360,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hemen hemen her gün beni korkutan bir şey olur" },
+      { "language": "en-US", "text": "Almost ever day something happens to frighten me." }
+    ]
+  },
+  {
+    "questionId": 361,
+    "scoringInfo": [
+      { "key": "Pt", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Her şeyi kötüye yorma eğilimindeyim" },
+      { "language": "en-US", "text": "I am inclined to take things hard." }
+    ]
+  },
+  {
+    "questionId": 362,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Birçok kimselerden daha çok hassasım" },
+      { "language": "en-US", "text": "I am more sensitive than a lot of people." }
+    ]
+  },
+  {
+    "questionId": 363,
+    "scoringInfo": [
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen sevdiğim kimselerin beni incitmesinden hoşlandığım oldu" },
+      { "language": "en-US", "text": "At times I have enjoyed being hurt by someone I loved." }
+    ]
+  },
+  {
+    "questionId": 364,
+    "scoringInfo": [
+      { "key": "Pa", "keyedResponse": "True" },
+      { "key": "Sc", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Hakkımda onur kırıcı ve kötü sözler söylüyorlar" },
+      { "language": "en-US", "text": "People say insulting and vulgar things about me." }
+    ]
+  },
+  {
+    "questionId": 365,
+    "scoringInfo": [
+      { "key": "Pa", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kapalı yerlerde huzursuzluk duyarım" },
+      { "language": "en-US", "text": "I feel uneasy indoors." }
+    ]
+  },
+  {
+    "questionId": 366,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "İnsanlar içinde bile olsam çok defa kendimi yalnız hissederim" },
+      { "language": "en-US", "text": "Even when I am among people I feel lonely much of the time." }
+    ]
+  },
+  {
+    "questionId": 367,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Yangından korkmam" },
+      { "language": "en-US", "text": "I am not afraid of fire." }
+    ]
+  },
+  {
+    "questionId": 368,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Sonradan pişman olacağım şeyler yapmak ya da söylemek korkusuyla bazen bir\nkimseden uzak durduğum oldu" },
+      { "language": "en-US", "text": "I have sometimes stayed away from another person because I feared doing or saying something\nI might regret afterwards." }
+    ]
+  },
+  {
+    "questionId": 369,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Kararsızlığım yüzünden yapılması gerekli birçok işi yapamamışımdır" },
+      { "language": "en-US", "text": "I couldn’t do what I was supposed to do because of my istability(my indecision)" }
+    ]
+  },
+  {
+    "questionId": 370,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Çalışırken acele etmek zorunda olmaktan nefret ederim" },
+      { "language": "en-US", "text": "I hate being in a rush when I am working." }
+    ]
+  },
+  {
+    "questionId": 371,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Aşırı derecede kendini dinleyen bir insan değilim" },
+      { "language": "en-US", "text": "I am not usually self-conscious." }
+    ]
+  },
+  {
+    "questionId": 372,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Elimdeki işi en iyi şekilde yapmayı isterim" },
+      { "language": "en-US", "text": "I desire to do the job given me in the best way." }
+    ]
+  },
+  {
+    "questionId": 373,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Yalnızca bir tek doğru din olduğundan eminim" },
+      { "language": "en-US", "text": "I am sure there is only one true religion." }
+    ]
+  },
+  {
+    "questionId": 374,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Ara sıra zihnim her zamankinden daha ağır işler" },
+      { "language": "en-US", "text": "At periods, my mind seems to work more slowly than usual." }
+    ]
+  },
+  {
+    "questionId": 375,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Çok mutlu olduğum ve iyi çalıştığım zamanlarda neşesiz veya dertli bir insanla\nkarşılaşmak keyfimi tamamen kaçırır" },
+      { "language": "en-US", "text": "I get upset when I come across with the people who are upset and distressed, after a cheerful\nday which I work really good." }
+    ]
+  },
+  {
+    "questionId": 376,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "polisler genellikle dürüsttür" },
+      { "language": "en-US", "text": "police are usually honest." }
+    ]
+  },
+  {
+    "questionId": 377,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Toplantılarda kalabalığa karışmaktan çok yalnız başıma oturur ya da bir tek kişiyle\nahbaplık ederim" },
+      { "language": "en-US", "text": "At parties I am more likely to sit by myself or with just one other person than to join in with the\ncrowd." }
+    ]
+  },
+  {
+    "questionId": 378,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Kadınları sigara içerken görmekten hoşlanmam" },
+      { "language": "en-US", "text": "I don’t like seeing women smoking." }
+    ]
+  },
+  {
+    "questionId": 379,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Çok nadiren karamsarlığa kapılırım" },
+      { "language": "en-US", "text": "I very seldom have spells of the blues." }
+    ]
+  },
+  {
+    "questionId": 380,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Ne yapsam zevk alamıyorum" },
+      { "language": "en-US", "text": "I don’t enjoy whatever I do." }
+    ]
+  },
+  {
+    "questionId": 381,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Kolay öfkelenen biri olduğumu söylerler" },
+      { "language": "en-US", "text": "They say I get angry easly." }
+    ]
+  },
+  {
+    "questionId": 382,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Yapmak istediğim şeylere karar verirken, başkalarının ne düşüneceğini dikkate\nalmam" },
+      { "language": "en-US", "text": "I do not pay any attantion when I am deciding something I want to do." }
+    ]
+  },
+  {
+    "questionId": 383,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "İnsanlar çoğu zaman beni hayal kırıklığına uğratırlar" },
+      { "language": "en-US", "text": "People often disappoint me." }
+    ]
+  },
+  {
+    "questionId": 384,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Kendimle ilgili her şeyi anlatabileceğim hiç kimse yok" },
+      { "language": "en-US", "text": "I don’t have someone to whom I can talk about myself." }
+    ]
+  },
+  {
+    "questionId": 385,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Şimşek çakması da korkularımdan biridir" },
+      { "language": "en-US", "text": "Lightning is one of my fears." }
+    ]
+  },
+  {
+    "questionId": 386,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Çok tertipli ve titizim" },
+      { "language": "en-US", "text": "I am very tidy and rigorous." }
+    ]
+  },
+  {
+    "questionId": 387,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Ailem her davranışıma fazla karışıyor" },
+      { "language": "en-US", "text": "My family meddles my all behaviors too much." }
+    ]
+  },
+  {
+    "questionId": 388,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Karanlıkta yalnız kalmaktan korkarım" },
+      { "language": "en-US", "text": "I am afraid to be alone in the dark." }
+    ]
+  },
+  {
+    "questionId": 389,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Tasarlamış olduğum planlar çok defa o kadar güçlükle dolu göründü ki bunlardan\nvazgeçmek zorunda kaldım" },
+      { "language": "en-US", "text": "My plans have frequently seemed so full of difficulties that I have had to give them up." }
+    ]
+  },
+  {
+    "questionId": 390,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Birinin hatasını önleme gayretimin yanlış anlaşılmasına çok üzülürüm" },
+      { "language": "en-US", "text": "I get really upset If people misunderstood my intentions of preventing them to make mistake\nand help." }
+    ]
+  },
+  {
+    "questionId": 391,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Dansa gitmeyi severim" },
+      { "language": "en-US", "text": "I love to go to dances." }
+    ]
+  },
+  {
+    "questionId": 392,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Fırtınadan çok korkarım" },
+      { "language": "en-US", "text": "A windstorm frightens me." }
+    ]
+  },
+  {
+    "questionId": 393,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Yük çekmeyen atlar dövülmeli ya da kamçılanmalıdır" },
+      { "language": "en-US", "text": "The horses which does not carry load should be whipped or beaten." }
+    ]
+  },
+  {
+    "questionId": 394,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Başkalarına sık sık akıl danışırım" },
+      { "language": "en-US", "text": "I frequently ask people for advice." }
+    ]
+  },
+  {
+    "questionId": 395,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Gelecek, bir insanın ciddi planlar yapamayacağı kadar belirsizdir" },
+      { "language": "en-US", "text": "The future is too uncertain for a person to make serious plans." }
+    ]
+  },
+  {
+    "questionId": 396,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "İşler yolunda gittiği zaman bile çoğu kez her şeye karşı bir aldırmazlık içinde\nolduğumu hissederim" },
+      { "language": "en-US", "text": "Often, even though everything is going fine for me, I feel that I don’t care about anything." }
+    ]
+  },
+  {
+    "questionId": 397,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen güçlükler öylesine üst üste gelir ki onlarla baş edemeyecekmişim gibi\nhissederim" },
+      { "language": "en-US", "text": "I have sometimes felt that difficulties were piling up so high that I could not overcome them." }
+    ]
+  },
+  {
+    "questionId": 398,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" },
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğu kez keşke tekrar çocuk olsaydım diye düşünürüm" },
+      { "language": "en-US", "text": "I often think: “I wish I were a child again.”" }
+    ]
+  },
+  {
+    "questionId": 399,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Kolay kolay kızmam" },
+      { "language": "en-US", "text": "I do not get angry easly." }
+    ]
+  },
+  {
+    "questionId": 400,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Eğer bana fırsat verilse dünya için çok yararlı işler yapabilirim" },
+      { "language": "en-US", "text": "If given the chance, I could do some things that would be of great benefit to the world." }
+    ]
+  },
+
+  {
+    "questionId": 401,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Sudan hiç korkmam" },
+      { "language": "en-US", "text": "I have no fear of water." }
+    ]
+  },
+  {
+    "questionId": 402,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Ne yapacağıma karar vermeden önce uzun uzun düşünürüm" },
+      { "language": "en-US", "text": "I often must sleep over a matter before I decide what to do." }
+    ]
+  },
+  {
+    "questionId": 403,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Birçok şeyin olup bittiği böyle bir devirde yaşamak hoş bir şey" },
+      { "language": "en-US", "text": "It is nice to l live such an age which everyting seems to happen." }
+    ]
+  },
+  {
+    "questionId": 404,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Hatalarını düzelterek kendilerine yardım etmeye çalıştığım insanlar amacımı çoğu\nkez yanlış anlarlar" },
+      { "language": "en-US", "text": "People have often misunderstood my intentions when I was trying to put them right and be\nhelpful." }
+    ]
+  },
+  {
+    "questionId": 405,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Yutkunmakta güçlük çekmem" },
+      { "language": "en-US", "text": "I have no trouble swallowing." }
+    ]
+  },
+  {
+    "questionId": 406,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Uzman dendiği halde benden pek fazla bilgili olmayan insanlarla sık sık\nkarşılaşırım" },
+      { "language": "en-US", "text": "I have often met people who were supposed to be experts who were no beter than I." }
+    ]
+  },
+  {
+    "questionId": 407,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Genel olarak sakinim ve kolay sinirlenmem" },
+      { "language": "en-US", "text": "I am usually calm and not easily upset." }
+    ]
+  },
+  {
+    "questionId": 408,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazı konular hakkında hislerimi o kadar gizleyebilirim ki insanlar bilmeden beni\nincitebilirler" },
+      { "language": "en-US", "text": "I can hide my feelings so professionally, sometimes people hurt me without even knowing it." }
+    ]
+  },
+  {
+    "questionId": 409,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Elimde olmadan çok ufak bir şeyden münakaşa çıkarıp karşımdakini kırıyorum" },
+      { "language": "en-US", "text": "Sometimes I can not help but hurt people for tiny little things." }
+    ]
+  },
+  {
+    "questionId": 410,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Madrabazı kendi silahı ile alt etmekten hoşlanırım" },
+      { "language": "en-US", "text": "I would certainly enjoy beating criminals at their own game." }
+    ]
+  },
+  {
+    "questionId": 411,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "İyi tanıdığım bir kimsenin başarısını duyduğum zaman adeta kendimi başarısızlığı\nuğramış hissederim" },
+      { "language": "en-US", "text": "It makes me feel like a failure when I hear of the success of someone I know well." }
+    ]
+  },
+  {
+    "questionId": 412,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Hastalandığım zaman doktora gitmekten korkmam" },
+      { "language": "en-US", "text": "I do not afraid of going to doctor when I get sick." }
+    ]
+  },
+  {
+    "questionId": 413,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Günahlarım için ne kadar ağır ceza görsem iyidir" },
+      { "language": "en-US", "text": "I deserve severe punishment for my sins." }
+    ]
+  },
+  {
+    "questionId": 414,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Hayal kırıklıklarını o kadar ciddiye alırım ki bunları zihnimden söküp atamam" },
+      { "language": "en-US", "text": "I am apt to take disappointments so keenly that I can’t put them out of my mind." }
+    ]
+  },
+  {
+    "questionId": 415,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Fırsat verilse iyi bir önder olurum" },
+      { "language": "en-US", "text": "If given the chance I would make a good leader of people." }
+    ]
+  },
+  {
+    "questionId": 416,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Yakınlarımın sağlığından çok endişe ederim" },
+      { "language": "en-US", "text": "I worry about health of people who mean a lot to me." }
+    ]
+  },
+  {
+    "questionId": 417,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Sırada beklerken biri önüme geçmeye kalkışırsa ona çıkışırım" },
+      { "language": "en-US", "text": "I am often so annoyed when someone tries to get ahead of me in a line of people that I speak to\nthat person about it." }
+    ]
+  },
+  {
+    "questionId": 418,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen hiç bir işe yaramadığımı düşünürüm" },
+      { "language": "en-US", "text": "I certainly feel useless at times." }
+    ]
+  },
+  {
+    "questionId": 419,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Küçükken okuldan sık sık kaçardım" },
+      { "language": "en-US", "text": "When I was young I often did not go to school I go somewhereelse instead." }
+    ]
+  },
+  {
+    "questionId": 420,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Başımdan dinle ilgili olağan üstü yaşantılar geçti" },
+      { "language": "en-US", "text": "I have been through so much things about religion in my life." }
+    ]
+  },
+  {
+    "questionId": 421,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Ailemde çok sinirli insanlar var" },
+      { "language": "en-US", "text": "One or more members of my family are very nervous." }
+    ]
+  },
+  {
+    "questionId": 422,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Ailemde bazı kişilerin yapmış olduğu işler beni utandırmıştır" },
+      { "language": "en-US", "text": "Sometimes the act of a few of my family member embarras me." }
+    ]
+  },
+  {
+    "questionId": 423,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Balık tutmayı çok severim" },
+      { "language": "en-US", "text": "I like fishing." }
+    ]
+  },
+  {
+    "questionId": 424,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Hemen hemen her zaman açlık duyarım" },
+      { "language": "en-US", "text": "I feel hungry nearly all the time." }
+    ]
+  },
+  {
+    "questionId": 425,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Sık sık rüya görürüm" },
+      { "language": "en-US", "text": "I dream often" }
+    ]
+  },
+  {
+    "questionId": 426,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Kaba ya da can sıkıcı insanlara karşı bazen sert davrandığım olur" },
+      { "language": "en-US", "text": "I have at times had to be rough with peopleho were rude or annoying." }
+    ]
+  },
+  {
+    "questionId": 427,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Açık saçık hikayelerden utanıp rahatsız olurum" },
+      { "language": "en-US", "text": "I am embarrassed by dirty stories." }
+    ]
+  },
+  {
+    "questionId": 428,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Gazetelerin baş yazılarını okumaktan hoşlanırım" },
+      { "language": "en-US", "text": "I like reading newspapers’ headlines only." }
+    ]
+  },
+  {
+    "questionId": 429,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Ciddi konular üzerinde verilen konferansları dinlemekten hoşlanırım" },
+      { "language": "en-US", "text": "I like to listen conferenses which are based on serious topics." }
+    ]
+  },
+  {
+    "questionId": 430,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Karşı cinsten olanları çekici bulurum" },
+      { "language": "en-US", "text": "I am attracted to the people from opposite sex." }
+    ]
+  },
+  {
+    "questionId": 431,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Başa gelebilecek talihsizlikler beni oldukça telaşlandırır" },
+      { "language": "en-US", "text": "I worry quite a bit over possible misfortunes." }
+    ]
+  },
+  {
+    "questionId": 432,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Kuvvetli siyasi fikirlerim vardır" },
+      { "language": "en-US", "text": "I have strong political opinions." }
+    ]
+  },
+  {
+    "questionId": 433,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Bir zamanlar hayali arkadaşlarım vardı" },
+      { "language": "en-US", "text": "I used to have an imaginary friend" }
+    ]
+  },
+  {
+    "questionId": 434,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Otomobil yarışçısı olmayı isterdim" },
+      { "language": "en-US", "text": "I would like to be an auto racer." }
+    ]
+  },
+  {
+    "questionId": 435,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Genel olarak kadınlarla çalışmayı tercih ederim" },
+      { "language": "en-US", "text": "I prefer working with women." }
+    ]
+  },
+  {
+    "questionId": 436,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "İnsanlar genel olarak başkalarının haklarına saygı göstermekten çok kendi\nhaklarına saygı gösterilmesini isterler" },
+      { "language": "en-US", "text": "People generally demand more respect for their own rights than they are willing to allow for\nothers." }
+    ]
+  },
+  {
+    "questionId": 437,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Kanuna aykırı davranmadan kanunun bir gediğinden yararlanmakta zarar yoktur" },
+      { "language": "en-US", "text": "It is all right to get around the law if you don’t actually break it." }
+    ]
+  },
+  {
+    "questionId": 438,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazı insanlardan o kadar nefret ederim ki ettiklerini bulunca içimden oh derim" },
+      { "language": "en-US", "text": "I hate people so much as if sometimes I feel relief when they get what they deserve." }
+    ]
+  },
+  {
+    "questionId": 439,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Beklemek zorunda kalmak beni sinirlendirir" },
+      { "language": "en-US", "text": "It makes me nervous to have to wait." }
+    ]
+  },
+  {
+    "questionId": 440,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Başkalarına anlatmak için hoş fıkraları hatırımda tutmaya çalışırım" },
+      { "language": "en-US", "text": "I try to remember good stories to pass them on to other people." }
+    ]
+  },
+  {
+    "questionId": 441,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Uzun boylu kadınlardan hoşlanırım" },
+      { "language": "en-US", "text": "I like tall women." }
+    ]
+  },
+  {
+    "questionId": 442,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Üzüntü yüzünden uyuyamadığım zamanlar oldu" },
+      { "language": "en-US", "text": "I had times when ı could not sleep because of the sadness." }
+    ]
+  },
+  {
+    "questionId": 443,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Başkalarının gereği gibi yapamadığımı sandığı şeyleri yapmaktan vaz geçtiğim\noldu" },
+      { "language": "en-US", "text": "I am apt to pass up something I want to do because others feel that I am not doing it in the right\nway." }
+    ]
+  },
+  {
+    "questionId": 444,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Başkalarının cahilce inançlarının düzeltmeye çalışmam" },
+      { "language": "en-US", "text": "I do not try to correct others ignorence." }
+    ]
+  },
+  {
+    "questionId": 445,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Küçükken heyecan veren şeyler yapmaktan hoşlanırdım" },
+      { "language": "en-US", "text": "when I was a child,I used to like doing exiting things." }
+    ]
+  },
+  {
+    "questionId": 446,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Az parayla oynanan kumardan hoşlanırım" },
+      { "language": "en-US", "text": "I enjoy gambling for small stakes." }
+    ]
+  },
+  {
+    "questionId": 447,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Mastürbasyonda kendi cinsimle ilgili hayal beni tahrik eder" },
+      { "language": "en-US", "text": "I am turned on when I masturbate and thinking of my own sex not the opposite sex." }
+    ]
+  },
+  {
+    "questionId": 448,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Sokakta, otobüs ve dükkanlarda bana bakan insanlardan rahatsız olurum" },
+      { "language": "en-US", "text": "I am bothered by people outside, on the streets, in stores, etc., watching me." }
+    ]
+  },
+  {
+    "questionId": 449,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "İnsanlarla bir arada olmayı sağladığı için toplantı ve davetleri severim" },
+      { "language": "en-US", "text": "I enjoy social gatherings just to be with people." }
+    ]
+  },
+  {
+    "questionId": 450,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kalabalığın verdiği coşkudan hoşlanırım" },
+      { "language": "en-US", "text": "I enjoy the excitement of a crowd." }
+    ]
+  },
+  {
+    "questionId": 451,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Neşeli arkadaşlar arasına karışınca üzüntülerimi unuturum" },
+      { "language": "en-US", "text": "When I am sad, visiting with friends can always pull me out of it." }
+    ]
+  },
+  {
+    "questionId": 452,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Arkadaş edinemiyorum" },
+      { "language": "en-US", "text": "I can not make friends." }
+    ]
+  },
+  {
+    "questionId": 453,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Küçükken mahalledeki arkadaş ya da akran gruplarına katılmaktan hoşlanmazdım" },
+      { "language": "en-US", "text": "when I was a child I did not like to being in a group of friend or peer." }
+    ]
+  },
+  {
+    "questionId": 454,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Orman ya da dağdaki bir kulübede tek başıma yaşamaktan mutlu olabilirim" },
+      { "language": "en-US", "text": "I could be happy if I lived in a cottage on the mountain or in the forest." }
+    ]
+  },
+  {
+    "questionId": 455,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "İçinde bulunduğum grubun dedikodularına ve konuşmalarına sıklıkla konu olmam" },
+      { "language": "en-US", "text": "I am quite often not in on the gossip and talk of the group that I belong to." }
+    ]
+  },
+  {
+    "questionId": 456,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "İnsan makul bulmadığı kanunlara aykırı hareketlerinden ötürü\ncezalandırılmamalıdır" },
+      { "language": "en-US", "text": "People shouldn’t get punished because of their react to the law they do not find resonable." }
+    ]
+  },
+  {
+    "questionId": 457,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Bence insan hiç bir zaman alkollü içkiyi ağzına almamalıdır" },
+      { "language": "en-US", "text": "I think people should never drink alcohol." }
+    ]
+  },
+  {
+    "questionId": 458,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Çocukken benimle en fazla ilgilenen erkek baba, üvey baba vb bana karşı çok sert\ndavranırdı" },
+      { "language": "en-US", "text": "The man who had most to do with me when I was a child (such as my father, stepfather, etc.)\nwas very strict with me." }
+    ]
+  },
+  {
+    "questionId": 459,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Çaba göstermekle yenemeyeceğimi bildiğim bazı kötü alışkanlıklarım var" },
+      { "language": "en-US", "text": "I have a bad habbits which I can not beat even if I make an effort." }
+    ]
+  },
+  {
+    "questionId": 460,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Az içki kullandım ya da hiç kullanmadım" },
+      { "language": "en-US", "text": "I have drunk a little amount of alcohol or have never drunk alcohol." }
+    ]
+  },
+  {
+    "questionId": 461,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Kısa bir zaman için bile olsa başladığım işi bir kenara bırakmak bana güç gelir" },
+      { "language": "en-US", "text": "I find it hard to set aside a task that I have undertaken, even for a short time." }
+    ]
+  },
+  {
+    "questionId": 462,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Küçük abdestimi yapmada ya da tutmada güçlük çekmem" },
+      { "language": "en-US", "text": "I have never had a trouble with holding my pee or peeing." }
+    ]
+  },
+  {
+    "questionId": 463,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Sek sek oyunu oynamaktan hoşlanırdım" },
+      { "language": "en-US", "text": "I used to like to play hopscotch and jump rope." }
+    ]
+  },
+  {
+    "questionId": 464,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Hiç hayal görmedim" },
+      { "language": "en-US", "text": "I have never dreamed." }
+    ]
+  },
+  {
+    "questionId": 465,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Bir kaç kez hayatım boyunca yaptığım işte hevesimi yitirdiğim olmuştur" },
+      { "language": "en-US", "text": "I lost my enthusiasm about the work I have done a few times in my life." }
+    ]
+  },
+  {
+    "questionId": 466,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Doktor önerisi dışında hiçbir ilaç ya da uyku hapı kullanmadım" },
+      { "language": "en-US", "text": "Except by doctor’s orders I never take drugs or sleeping pills." }
+    ]
+  },
+  {
+    "questionId": 467,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Çok defa otomobil, plaka numarası gibi hiç önemli olmayan numaraları ezberlerim" },
+      { "language": "en-US", "text": "I have memorized the things which are not important such as number plates of automobiles for\nmanytimes." }
+    ]
+  },
+  {
+    "questionId": 468,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Sıklıkla sinirli ve asık suratlı olurum" },
+      { "language": "en-US", "text": "I often can be surly and angry." }
+    ]
+  },
+  {
+    "questionId": 469,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Onlardan önce düşündüğüm için başkaları benim fikirlerimi kıskanıyorlar" },
+      { "language": "en-US", "text": "I have often found people jealous of my good ideas, just because they had not thought of them\nfirst." }
+    ]
+  },
+  {
+    "questionId": 470,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Cinsiyetle ilgili şeylerden nefret ederim" },
+      { "language": "en-US", "text": "I hate the things about gender." }
+    ]
+  },
+  {
+    "questionId": 471,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Okulda hal ve gidişten kırık not alırdım" },
+      { "language": "en-US", "text": "In school my marks in classroom behavior were quite regularly bad." }
+    ]
+  },
+  {
+    "questionId": 472,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Yangın karşısında büyülenmiş gibi olurum" },
+      { "language": "en-US", "text": "I am fascinated by fire." }
+    ]
+  },
+  {
+    "questionId": 473,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Mümkün olduğu kadar kalabalıktan uzak kalmaya çalışırım" },
+      { "language": "en-US", "text": "Whenever possible I avoid being in a crowd." }
+    ]
+  },
+  {
+    "questionId": 474,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Başkalarından daha sık küçük abdeste çıkmam" },
+      { "language": "en-US", "text": "I don’t pee more often than the others." }
+    ]
+  },
+  {
+    "questionId": 475,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Sıkıştırıldığım zaman gerçeğin ancak bana zarar vermeyecek kısmını söylerim" },
+      { "language": "en-US", "text": "When I am cornered I tell that portion of the truth which is not likely to hurt me." }
+    ]
+  },
+  {
+    "questionId": 476,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Tanrı bana özel bir görev vermiştir" },
+      { "language": "en-US", "text": "I have god given special task." }
+    ]
+  },
+  {
+    "questionId": 477,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Arkadaşlarımla birlikte işlediğim bir suçtan eşit şekilde suçlu olduğum zaman\nonları ele vermektense bütün suçu üzerime almayı tercih ederim" },
+      { "language": "en-US", "text": "If I were in trouble with several friends who were as guilty as I was, I would rather take the\nwhole blame than give them away." }
+    ]
+  },
+  {
+    "questionId": 478,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Çok değişik bir aile ortamından gelmiş olmayı isterdim" },
+      { "language": "en-US", "text": "I wish I would come from a different family." }
+    ]
+  },
+  {
+    "questionId": 479,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Yabancılarla tanışmaktan kaçınmam" },
+      { "language": "en-US", "text": "I do not mind meeting strangers." }
+    ]
+  },
+  {
+    "questionId": 480,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Karanlıktan çok defa korkarım" },
+      { "language": "en-US", "text": "I am often afraid of the dark." }
+    ]
+  },
+  {
+    "questionId": 481,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bir şeyden kurtulmak için hasta numarası yaptığım olmuştur" },
+      { "language": "en-US", "text": "I can remember “playing sick” to get out of something." }
+    ]
+  },
+  {
+    "questionId": 482,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Trende, otobüste vb rastladığım kimselerle çok defa konuşurum" },
+      { "language": "en-US", "text": "While in trains, busses, etc., I often talk with strangers." }
+    ]
+  },
+  {
+    "questionId": 483,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Peygamberimiz göğe çıkma gibi mucizeler göstermiştir" },
+      { "language": "en-US", "text": "Our probhet has shown miracles such as ascension." }
+    ]
+  },
+  {
+    "questionId": 484,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Homoseksüelliği çok iğrenç buluyorum" },
+      { "language": "en-US", "text": "I am disgueted with homosexuality." }
+    ]
+  },
+  {
+    "questionId": 485,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Bir erkek bir kadınla beraber olunca genel olarak onun cinsiyetiyle ilgili şeyler\ndüşünür" },
+      { "language": "en-US", "text": "When a man is with a woman he is usually thinking about things related to her sex." }
+    ]
+  },
+  {
+    "questionId": 486,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "İdrarımda hiç bir zaman kan görmedim" },
+      { "language": "en-US", "text": "I have never found blood in my urinary." }
+    ]
+  },
+  {
+    "questionId": 487,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Uğraştığım iş yolunda gitmeyince hemen vaz geçerim" },
+      { "language": "en-US", "text": "If the case I work on it does not go well, ı immediately give up." }
+    ]
+  },
+  {
+    "questionId": 488,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Sık sık dua ederim" },
+      { "language": "en-US", "text": "I often pray." }
+    ]
+  },
+  {
+    "questionId": 489,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Yaşamı yalnızca üzüntülü, sıkıntılı tarafları ile benimseyen insanlara sempati\nduyarım" },
+      { "language": "en-US", "text": "I sympathized the people who ambrace the life only on the side of troublesome and agonized." }
+    ]
+  },
+  {
+    "questionId": 490,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Haftada birkaç kere kuran okurum" },
+      { "language": "en-US", "text": "I read holy writ (kuran,bible, torah…) one or twice a week." }
+    ]
+  },
+  {
+    "questionId": 491,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Sadece bir tek dinin doğruluğuna inananlara tahammül edemem" },
+      { "language": "en-US", "text": "I cannot stand the people who believes there is only one religion." }
+    ]
+  },
+  {
+    "questionId": 492,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Zelzele düşüncesi beni çok korkutur" },
+      { "language": "en-US", "text": "I dread the thought of an earthquake." }
+    ]
+  },
+  {
+    "questionId": 493,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Tam dikkat isteyen işleri, beni dikkatsizliğe sürükleyen işlere tercih ederim" },
+      { "language": "en-US", "text": "I prefer the work which demands full attention rather than the work which drags me to\ninattention." }
+    ]
+  },
+  {
+    "questionId": 494,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Kapalı ve küçük yerlerde bulunmaktan çok rahatsız olurum" },
+      { "language": "en-US", "text": "I am afraid of finding myself in a closet or small closed space." }
+    ]
+  },
+  {
+    "questionId": 495,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Kusurlarını düzeltmeye çalıştığım insanlarla genel olarak gayet açık konuşurum" },
+      { "language": "en-US", "text": "I am usually very direct with people I am trying to correct or improve." }
+    ]
+  },
+  {
+    "questionId": 496,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Eşyayı hiçbir zaman çift görmem (Yani tek olan şeyleri çift görmem)" },
+      { "language": "en-US", "text": "I don’t see the stuff double.(It means I never see one thing as double)" }
+    ]
+  },
+  {
+    "questionId": 497,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Macera hikayelerinden hoşlanırım" },
+      { "language": "en-US", "text": "I like advanture stories." }
+    ]
+  },
+  {
+    "questionId": 498,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Açık sözlü olmak her zaman iyidir" },
+      { "language": "en-US", "text": "Being honest and frank is always good." }
+    ]
+  },
+  {
+    "questionId": 499,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Gerçekten önemsiz olan bir şey üzerinde bazen sebepsiz olarak haddinden fazla\nüzüldüğüm olur" },
+      { "language": "en-US", "text": "I sometimes get extremely sad for an unimportant problem." }
+    ]
+  },
+  {
+    "questionId": 500,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Bana parlak gelen bir fikre hemen kapılır giderim" },
+      { "language": "en-US", "text": "I readily become one hundred percent sold on a good idea.(I easly dive into an idea which seems\nvery bright to me" }
+    ]
+  },
+
+  {
+    "questionId": 501,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Başkalarından yardım beklemektense genel olarak bir işi kendi başıma yapmayı\ntercih ederim" },
+      { "language": "en-US", "text": "I prefer to do the work on my own rather than someone." }
+    ]
+  },
+  {
+    "questionId": 502,
+    "scoringInfo": [
+      { "key": "K", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Herhangi bir olay hakkındaki görüşümü başkalarına açıkça belirtmekten\nhoşlanırım" },
+      { "language": "en-US", "text": "I like giving my opinion to anybody openly." }
+    ]
+  },
+  {
+    "questionId": 503,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Başkalarının hareketlerin çok beğenip beğenmediğimi pek belli etmem" },
+      { "language": "en-US", "text": "I have a poker face about others behaviours which I like or dislike." }
+    ]
+  },
+  {
+    "questionId": 504,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Değersiz gördüğüm ya da acıdığım kimseye bu duygularımı belli etmekten\nçekinmem" },
+      { "language": "en-US", "text": "I do not try to cover up my poor opinion or pity of people so that they won’t know how I feel." }
+    ]
+  },
+  {
+    "questionId": 505,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Zaman zaman kendimi öyle güçlü ve enerjik hissederim ki böyle zamanlarda\ngünlerce uykuya ihtiyaç duymadığım olur" },
+      { "language": "en-US", "text": "I have had periods when I felt so full of pep that sleep did not seem necessary for days at a time." }
+    ]
+  },
+  {
+    "questionId": 506,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Sinirleri çok gergin bir insanım" },
+      { "language": "en-US", "text": "I am a high-strung person." }
+    ]
+  },
+  {
+    "questionId": 507,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "İşler iyi gidince aslan payını kendilerine alan fakat hata yapılanca bunu\nbaşkalarının üzerine atan insanlarla karşılaştım" },
+      { "language": "en-US", "text": "I have frequently worked under people who seem to have things arranged so that they get\ncredit for good work but are able to pass mistakes onto those under them." }
+    ]
+  },
+  {
+    "questionId": 508,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Koku alma duyum herkes kadar iyidir" },
+      { "language": "en-US", "text": "I have a good sense of smell." }
+    ]
+  },
+  {
+    "questionId": 509,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen çekingenliğim yüzünden hakkımı arayamam" },
+      { "language": "en-US", "text": "I sometimes find it hard to stick up for my rights because I am so reserved." }
+    ]
+  },
+  {
+    "questionId": 510,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Pislik ve kir beni ürkütüp iğrendirir" },
+      { "language": "en-US", "text": "Dirt frightens or disgusts me." }
+    ]
+  },
+  {
+    "questionId": 511,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Herkesten gizli tuttuğum bir hayal dünyam var" },
+      { "language": "en-US", "text": "I have a daydream life about which I do not tell other people." }
+    ]
+  },
+  {
+    "questionId": 512,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Yıkanmaktan hoşlanmam" },
+      { "language": "en-US", "text": "I do not like taking a bath." }
+    ]
+  },
+  {
+    "questionId": 513,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Kış mevsimini severim" },
+      { "language": "en-US", "text": "I like winter." }
+    ]
+  },
+  {
+    "questionId": 514,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Erkek gibi davranan kadınlardan hoşlanırım" },
+      { "language": "en-US", "text": "I like women behave like a man." }
+    ]
+  },
+  {
+    "questionId": 515,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Evimizde daima gerekli ihtiyaç maddeleri bulunurdu (Yeteri kadar yiyecek,\ngiyecek vb gibi)" },
+      { "language": "en-US", "text": "we always have the basic needs as clothes or food at our home." }
+    ]
+  },
+  {
+    "questionId": 516,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Ailemde çabuk kızan kimseler var" },
+      { "language": "en-US", "text": "Some of my family members have quick tempers." }
+    ]
+  },
+  {
+    "questionId": 517,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Hiç bir şeyi iyi yapamam" },
+      { "language": "en-US", "text": "I cannot do anything well." }
+    ]
+  },
+  {
+    "questionId": 518,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazı durumlarda olduğumdan daha fazla üzüntülü görünmeye çalıştığım olmuştur" },
+      { "language": "en-US", "text": "I often feel guilty because I pretend to feel more sorry about something than I really do." }
+    ]
+  },
+  {
+    "questionId": 519,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Cinsel organlarımda bir bozukluk var" },
+      { "language": "en-US", "text": "I have a problem on my sexual organ." }
+    ]
+  },
+  {
+    "questionId": 520,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Genel olarak görüşlerimi kuvvetle savunurum" },
+      { "language": "en-US", "text": "I strongly defend my own opinions as a rule." }
+    ]
+  },
+  {
+    "questionId": 521,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Bir grup içinde konuşma yapmam ve çok iyi bildiğim bir konuda fikrimi\nsöylemem istenince kaygılanmam" },
+      { "language": "en-US", "text": "In a group of people, I would not be embarrassed to be called upon to start a discussion or give\nan opinion about something I know well." }
+    ]
+  },
+  {
+    "questionId": 522,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Örümcekten korkmam" },
+      { "language": "en-US", "text": "I have no fear of spiders." }
+    ]
+  },
+  {
+    "questionId": 523,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Yüzüm hemen hemen hiç kızarmaz" },
+      { "language": "en-US", "text": "My face never gets flusged( turn red)" }
+    ]
+  },
+  {
+    "questionId": 524,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Kapı tokmaklarından hastalık veya mikrop alacağımdan korkmam" },
+      { "language": "en-US", "text": "I do not afraid of getting a disease from doorknobs." }
+    ]
+  },
+  {
+    "questionId": 525,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazı hayvanlardan ürkerim" },
+      { "language": "en-US", "text": "I am made nervous by certain animals." }
+    ]
+  },
+  {
+    "questionId": 526,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Gelecek bana ümitsiz görünüyor" },
+      { "language": "en-US", "text": "The future seems hopeless to me." }
+    ]
+  },
+  {
+    "questionId": 527,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Ailem ve yakın akrabalarım birbirleriyle oldukça iyi geçinirler" },
+      { "language": "en-US", "text": "The members of my family and my close relatives get along quite well." }
+    ]
+  },
+  {
+    "questionId": 528,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Yüzüm başkalarından daha sik kızarmaz" },
+      { "language": "en-US", "text": "My face does not get more red than someone else." }
+    ]
+  },
+  {
+    "questionId": 529,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Pahalı elbiseler giymeyi isterim" },
+      { "language": "en-US", "text": "I would like to wear expensiveclothes." }
+    ]
+  },
+  {
+    "questionId": 530,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Sebepsiz yere sık sık içim sıkılıyor ve ağlamak istiyorum" },
+      { "language": "en-US", "text": "I often want to cry without any reason." }
+    ]
+  },
+  {
+    "questionId": 531,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Bir konu üzerinde karar verdiğimi zannetsem bile başka biri fikrimi kolayca\ndeğiştirebilir" },
+      { "language": "en-US", "text": "People can pretty easily change my mind, even when I have made a decision about something." }
+    ]
+  },
+  {
+    "questionId": 532,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Acıya başkaları kadar ben de dayanabilirim" },
+      { "language": "en-US", "text": "I can stand as much pain as others can." }
+    ]
+  },
+  {
+    "questionId": 533,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Sık sık geğirmekten şikayetim yoktur" },
+      { "language": "en-US", "text": "I do not complein about burping very often." }
+    ]
+  },
+  {
+    "questionId": 534,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğunlukla başladığım işten en son vazgeçen ben olurum" },
+      { "language": "en-US", "text": "Several times I have been the last to give up trying to do a thing." }
+    ]
+  },
+  {
+    "questionId": 535,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Hemen hemen her zaman ağzımda kuruluk olur" },
+      { "language": "en-US", "text": "I nearly almost have a desert mouth." }
+    ]
+  },
+  {
+    "questionId": 536,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Beni acele ettirenlere kızarım" },
+      { "language": "en-US", "text": "It makes me angry to have people hurry me." }
+    ]
+  },
+  {
+    "questionId": 537,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Afrika'da aslan avına çıkmak isterdim" },
+      { "language": "en-US", "text": "I would like to go lion hunting in Africa." }
+    ]
+  },
+  {
+    "questionId": 538,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Terzilikten hoşlanabileceğimi sanıyorum" },
+      { "language": "en-US", "text": "I think I might like tailoring." }
+    ]
+  },
+  {
+    "questionId": 539,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Fareden korkmam" },
+      { "language": "en-US", "text": "I am not afraid of mice." }
+    ]
+  },
+  {
+    "questionId": 540,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Yüzüme hiç felç inmedi" },
+      { "language": "en-US", "text": "I have never been paralyzed of my face." }
+    ]
+  },
+  {
+    "questionId": 541,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Cildime ufak bir şeyin dokunmasından çok huylanırım" },
+      { "language": "en-US", "text": "I get tickled when even small thing touches my skin." }
+    ]
+  },
+  {
+    "questionId": 542,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Şimdiye kadar rengi kapkara büyük abdest yapmadım" },
+      { "language": "en-US", "text": "I have never poo-poo (shit) which is in black colour." }
+    ]
+  },
+  {
+    "questionId": 543,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Haftada birkaç kez korkunç bir şey olacakmış duygusuna kapılırım" },
+      { "language": "en-US", "text": "Several times a week I feel as if something dreadful is about to happen." }
+    ]
+  },
+  {
+    "questionId": 544,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Çoğu zaman yorgunluk hissederim" },
+      { "language": "en-US", "text": "I feel tired a good deal of the time." }
+    ]
+  },
+  {
+    "questionId": 545,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen aynı rüyayı tekrar tekrar görürüm" },
+      { "language": "en-US", "text": "Sometimes I have the same dream over and over again." }
+    ]
+  },
+  {
+    "questionId": 546,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Tarih okumaktan hoşlanırım" },
+      { "language": "en-US", "text": "I like reading a history." }
+    ]
+  },
+  {
+    "questionId": 547,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "False" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Toplantı ve kalabalık eğlencelerden hoşlanırım" },
+      { "language": "en-US", "text": "I like crowded meetings and gatherings." }
+    ]
+  },
+  {
+    "questionId": 548,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Elimdeyse açık saçık numaraların yapılacağı eğence yerlerine gitmem" },
+      { "language": "en-US", "text": "If I have a change I prefer not to go to places like strip club." }
+    ]
+  },
+  {
+    "questionId": 549,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Karşıma çıkacak güçlüklerden korkak ve kaçarım" },
+      { "language": "en-US", "text": "I afraid and run from the struggle which I come across." }
+    ]
+  },
+  {
+    "questionId": 550,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Kapı mandallarını onarmaktan hoşlanırım" },
+      { "language": "en-US", "text": "I like repairing a door latch." }
+    ]
+  },
+  {
+    "questionId": 551,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen başkalarının kafamın içindekilerindi okuduğundan eminim" },
+      { "language": "en-US", "text": "Sometimes I am sure that other people can tell what I am thinking." }
+    ]
+  },
+  {
+    "questionId": 552,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Bilimsel yayınları okumaktan hoşlanırım" },
+      { "language": "en-US", "text": "I like to read about science.." }
+    ]
+  },
+  {
+    "questionId": 553,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Açık yerlerde veya geniş meydanlarda tek başıma kalmaktan korkarım" },
+      { "language": "en-US", "text": "I am afraid of being alone in a wide-open place." }
+    ]
+  },
+  {
+    "questionId": 554,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Sıkıntım oldukça alkol alırım" },
+      { "language": "en-US", "text": "After a bad day, I need a few drinks to relax." }
+    ]
+  },
+  {
+    "questionId": 555,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Bazen çıldıracakmış gibi olurum" },
+      { "language": "en-US", "text": "Sometimes I feel like I am going crazy." }
+    ]
+  },
+  {
+    "questionId": 556,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Kılık kıyafetime çok itina ederim" },
+      { "language": "en-US", "text": "I care about my appeal." }
+    ]
+  },
+  {
+    "questionId": 557,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Hayatı fazla ciddiye almıyorum" },
+      { "language": "en-US", "text": "I do not take life so serious." }
+    ]
+  },
+  {
+    "questionId": 558,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Birçok kimseler kötü cinsel faaliyetlerinden dolayı suçludurlar" },
+      { "language": "en-US", "text": "A large number of people are guilty of bad sexual conduct." }
+    ]
+  },
+  {
+    "questionId": 559,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Gece yarısı çoğunlukla korkuya kapıldığım olur" },
+      { "language": "en-US", "text": "I have often been frightened in the middle of the night." }
+    ]
+  },
+  {
+    "questionId": 560,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Bir şeyi nereye koyduğumu unutmaktan çok şikayetçiyimdir" },
+      { "language": "en-US", "text": "I am greatly bothered by forgetting where I put things." }
+    ]
+  },
+  {
+    "questionId": 561,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Ailem benim için büyük bir dayanaktır" },
+      { "language": "en-US", "text": "When things get really bad, I know I can count on my family for help." }
+    ]
+  },
+  {
+    "questionId": 562,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Çocukken en fazla bağlandığım ve hayran kaldığım kimse bir kadındı" },
+      { "language": "en-US", "text": "The one to whom I was most attached and whom I most admire as child was a woman (mother,\nsister, aunt, or other woman)." }
+    ]
+  },
+  {
+    "questionId": 563,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Macera hikayelerini aşk hikayelerinden daha çok severim" },
+      { "language": "en-US", "text": "I like adventure stories better than romantic stories." }
+    ]
+  },
+  {
+    "questionId": 564,
+    "scoringInfo": [
+      { "key": "Si", "keyedResponse": "True" }
+    ],
+    "translations": [
+      { "language": "tr-TR", "text": "Yapmak istediğim fakat başkalarının beğenmediği bir işten kolayca vazgeçerim" },
+      { "language": "en-US", "text": "I easly give up the work I like but others do not like." }
+    ]
+  },
+  {
+    "questionId": 565,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Yüksek bir yerde iken içimden atlama isteği gelir" },
+      { "language": "en-US", "text": "I would like to jump when I am at high places." }
+    ]
+  },
+  {
+    "questionId": 566,
+    "scoringInfo": [],
+    "translations": [
+      { "language": "tr-TR", "text": "Sinemalardaki aşk sahnelerini severim" },
+      { "language": "en-US", "text": "I like the love scenes of the cinema." }
+    ]
+  }
+]

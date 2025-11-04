@@ -1,0 +1,10 @@
+# User Secrets'ı başlat (zaten yaptıysan tekrar gerekmez)
+# dotnet user-secrets init --project src/Ayjet.Evaluation.Center.Api 
+
+dotnet user-secrets set "SmtpSettings:Host" "posta.ayjet.aero" --project src/Ayjet.Evaluation.Center.Api
+dotnet user-secrets set "SmtpSettings:Port" "587" --project src/Ayjet.Evaluation.Center.Api 
+dotnet user-secrets set "SmtpSettings:Username" "evaluation@ayjet.aero" --project src/Ayjet.Evaluation.Center.Api
+dotnet user-secrets set "SmtpSettings:Password" "evaluation@ayjet.aero_ŞİFRESİ" --project src/Ayjet.Evaluation.Center.Api # Gerçek şifreyi buraya gir
+dotnet user-secrets set "SmtpSettings:EnableSsl" "true" --project src/Ayjet.Evaluation.Center.Api # Port 587 veya 465 ise genellikle true, değilse false olabilir. IT'ye sor.
+dotnet user-secrets set "SmtpSettings:SenderEmail" "evaluation@ayjet.aero" --project src/Ayjet.Evaluation.Center.Api # Gönderici adresi tekrar belirtelim
+dotnet user-secrets set "SmtpSettings:SenderName" "Ayjet Değerlendirme Merkezi" --project src/Ayjet.Evaluation.Center.Api # E-postada görünecek isim

@@ -1,8 +1,6 @@
 using System.Text;
 using System.Text.Json.Serialization;
-using AAyjet.Evaluation.Center.Persistence;
-using AAyjet.Evaluation.Center.Persistence.Context;
-using AAyjet.Evaluation.Center.Persistence.DataSeeders;
+using Ayjet.Evaluation.Center.Persistence;
 using Ayjet.Evaluation.Center.Api.Filters;
 using Ayjet.Evaluation.Center.Api.Middleware;
  
@@ -14,6 +12,9 @@ using Ayjet.Evaluation.Center.Application;
 using Ayjet.Evaluation.Center.Domain.Entities;
 using Ayjet.Evaluation.Center.Infrastructure;
 using Ayjet.Evaluation.Center.Infrastructure.Hubs;
+using Ayjet.Evaluation.Center.Persistence;
+using Ayjet.Evaluation.Center.Persistence.Context;
+using Ayjet.Evaluation.Center.Persistence.DataSeeders;
 using Hangfire;
 using Microsoft.EntityFrameworkCore;
 using QuestPDF.Infrastructure;
@@ -62,6 +63,27 @@ builder.Services.AddAuthentication(options =>
             IssuerSigningKey =
                 new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:Key"]!))
         };
+        
+        options.Events = new JwtBearerEvents
+        {
+            OnMessageReceived = context =>
+            {
+                // SignalR token'ını query string'den oku
+                var accessToken = context.Request.Query["access_token"];
+
+                // Path'in hub endpoint'imize ait olup olmadığını kontrol et
+                // (Frontend /service/api/notificationHub'ı aradığı için,
+                // IIS'in /service/ kısmını attıktan sonra backend'e /api/notificationHub gelir)
+                var path = context.HttpContext.Request.Path;
+                if (!string.IsNullOrEmpty(accessToken) &&
+                    (path.StartsWithSegments("/api/notificationHub"))) // Bizim hub'ın yolu
+                {
+                    // Token'ı context'e ata, böylece [Authorize] attribute'u onu görür
+                    context.Token = accessToken;
+                }
+                return Task.CompletedTask;
+            }
+        };
     });
 
 
@@ -71,14 +93,34 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowVueApp", policyBuilder =>
     {
-        // Vue geliştirme sunucunuzun adresini buraya yazın.
-        // Port numarası farklıysa güncelleyin.
-        policyBuilder.WithOrigins("http://localhost:5173")
-            .AllowAnyHeader()
-            .AllowAnyMethod()
-            .AllowCredentials() // <-- BU SATIR ÇOK ÖNEMLİ
-            .WithExposedHeaders("Content-Disposition"); // <-- BU SATIRI EKLEYİN
-        ;
+        if (builder.Environment.IsDevelopment())
+        {
+            // Development için localhost
+            policyBuilder.WithOrigins(
+                    "http://localhost:5173",
+                    "http://localhost:3000",
+                    "http://localhost:8080"
+                )
+                .AllowAnyHeader()
+                .AllowAnyMethod()
+                .AllowCredentials()
+                .WithExposedHeaders("Content-Disposition"); // Dosya indirme için gerekli
+        }
+        else
+        {
+            // Production için domain
+            policyBuilder.WithOrigins(
+                    "https://evaluation.ayjet.aero",
+                    "http://evaluation.ayjet.aero" ,
+                    "http://localhost:5000",
+                    "http://localhost:8088"
+                )
+                .AllowAnyHeader()
+                .AllowAnyMethod()
+                .AllowCredentials()
+                .WithExposedHeaders("Content-Disposition") // Dosya indirme için gerekli
+                .SetPreflightMaxAge(TimeSpan.FromMinutes(10)); // Preflight cache süresi
+        }
     });
 });
 
@@ -126,6 +168,8 @@ builder.Services.AddSwaggerGen(c =>
 
 var app = builder.Build();
 
+ 
+
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
@@ -149,12 +193,20 @@ using (var scope = app.Services.CreateScope())
 
 app.UseMiddleware<ExceptionHandlerMiddleware>();
 
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+ 
+
+    var swaggerEnabled = builder.Configuration.GetValue<bool>("SwaggerEnabled");
+
+    if (swaggerEnabled)
+    {
+        app.MapOpenApi();
+        app.UseSwagger();
+        app.UseSwaggerUI(c =>
+        {
+            c.RoutePrefix = "swagger";
+            c.SwaggerEndpoint("v1/swagger.json", "Ayjet Evaluation API v1");
+        });
+    }
 
 app.UseHttpsRedirection();
 
@@ -162,19 +214,19 @@ app.UseStaticFiles();
 
 
 app.UseRouting();
-
+app.UseCors("AllowVueApp");
 app.UseHangfireDashboard("/hangfire", new DashboardOptions
 {
     Authorization = [new HangfireDashboardAuthorizationFilter()]
 });
 
-app.UseCors("AllowVueApp");
+
 
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 
-app.MapHub<NotificationHub>("/notificationHub");
+app.MapHub<NotificationHub>("/api/notificationHub");
 
 app.MapGet("/debug/routes", (IEnumerable<EndpointDataSource> endpointSources) =>
 {

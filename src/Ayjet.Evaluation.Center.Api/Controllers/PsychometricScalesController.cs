@@ -1,4 +1,4 @@
-using AAyjet.Evaluation.Center.Persistence.Context;
+using Ayjet.Evaluation.Center.Persistence.Context;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

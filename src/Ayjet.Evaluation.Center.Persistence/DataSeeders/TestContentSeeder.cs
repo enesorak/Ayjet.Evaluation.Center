@@ -1,12 +1,12 @@
 using System.Text.Json;
-using AAyjet.Evaluation.Center.Persistence.Context;
 using Ayjet.Evaluation.Center.Domain.Entities;
 using Ayjet.Evaluation.Center.Domain.Enums;
+using Ayjet.Evaluation.Center.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 
 // JsonNode için
 
-namespace AAyjet.Evaluation.Center.Persistence.DataSeeders;
+namespace Ayjet.Evaluation.Center.Persistence.DataSeeders;
 
  public static class TestContentSeeder
 {

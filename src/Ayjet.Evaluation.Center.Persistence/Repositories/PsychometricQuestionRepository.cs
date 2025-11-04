@@ -1,9 +1,9 @@
-using AAyjet.Evaluation.Center.Persistence.Context;
 using Ayjet.Evaluation.Center.Application.Common.Interfaces;
 using Ayjet.Evaluation.Center.Domain.Entities;
+using Ayjet.Evaluation.Center.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 
-namespace AAyjet.Evaluation.Center.Persistence.Repositories;
+namespace Ayjet.Evaluation.Center.Persistence.Repositories;
 
 public class PsychometricQuestionRepository : Repository<PsychometricQuestion>, IPsychometricQuestionRepository
 {

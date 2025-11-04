@@ -1,9 +1,9 @@
 using System.Linq.Expressions;
-using AAyjet.Evaluation.Center.Persistence.Context;
 using Ayjet.Evaluation.Center.Application.Common.Interfaces;
+using Ayjet.Evaluation.Center.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 
-namespace AAyjet.Evaluation.Center.Persistence.Repositories;
+namespace Ayjet.Evaluation.Center.Persistence.Repositories;
 
 // Bu sınıf, IRepository arayüzünü genel (generic) olarak uygular.
 public class Repository<T> : IRepository<T> where T : class

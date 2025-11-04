@@ -4,6 +4,7 @@ using Ayjet.Evaluation.Center.Domain.Entities;
 using Ayjet.Evaluation.Center.Domain.Enums;
 using Hangfire;
 using MediatR;
+using Microsoft.Extensions.Configuration;
 
 namespace Ayjet.Evaluation.Center.Application.Features.TestAssignments.Commands.Create;
 // src/Application/Features/TestAssignments/Commands/Create/AssignTestCommandHandler.cs
@@ -15,14 +16,15 @@ public class AssignTestCommandHandler : IRequestHandler<AssignTestCommand, List<
     private readonly IUnitOfWork _unitOfWork;
     private readonly IBackgroundJobClient _backgroundJobClient;
     private readonly IRepository<Candidate> _candidateRepo; // Aday bilgisini almak için
-
-    public AssignTestCommandHandler(ITestAssignmentRepository assignmentRepository, ITestDefinitionRepository testDefinitionRepository, IUnitOfWork unitOfWork, IBackgroundJobClient backgroundJobClient, IRepository<Candidate> candidateRepo)
+private readonly IConfiguration _configuration;
+    public AssignTestCommandHandler(ITestAssignmentRepository assignmentRepository, ITestDefinitionRepository testDefinitionRepository, IUnitOfWork unitOfWork, IBackgroundJobClient backgroundJobClient, IRepository<Candidate> candidateRepo, IConfiguration configuration)
     {
         _assignmentRepository = assignmentRepository;
         _testDefinitionRepository = testDefinitionRepository;
         _unitOfWork = unitOfWork;
         _backgroundJobClient = backgroundJobClient;
         _candidateRepo = candidateRepo;
+        _configuration = configuration;
     }
 
 
@@ -58,7 +60,8 @@ public class AssignTestCommandHandler : IRequestHandler<AssignTestCommand, List<
             await _assignmentRepository.AddAsync(assignment, cancellationToken);
             createdAssignmentIds.Add(assignment.Id);
 
-            var testLink = $"http://localhost:5173/take-test/{assignment.Id}";
+    
+            var testLink = $"{_configuration["ClientUrl"]}/take-test/{assignment.Id}";
             _backgroundJobClient.Enqueue<IEmailService>(emailService =>
                 emailService.SendTestInvitationEmailAsync(
                     candidate.Email, $"{candidate.FirstName} {candidate.LastName}",

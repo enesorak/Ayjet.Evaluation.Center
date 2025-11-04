@@ -1,11 +1,11 @@
-using AAyjet.Evaluation.Center.Persistence.Context;
 using Ayjet.Evaluation.Center.Application.Common.Interfaces;
 using Ayjet.Evaluation.Center.Domain.Entities;
 using Ayjet.Evaluation.Center.Domain.Enums;
 using Ayjet.Evaluation.Center.Domain.Models;
+using Ayjet.Evaluation.Center.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 
-namespace AAyjet.Evaluation.Center.Persistence.Repositories;
+namespace Ayjet.Evaluation.Center.Persistence.Repositories;
 
 public class TestDefinitionRepository : Repository<TestDefinition>, ITestDefinitionRepository
 {

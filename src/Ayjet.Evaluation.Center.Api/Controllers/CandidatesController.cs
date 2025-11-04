@@ -2,6 +2,8 @@ using System.Security.Claims;
 using Ayjet.Evaluation.Center.Application.Common.Exceptions;
 using Ayjet.Evaluation.Center.Application.Common.Interfaces;
 using Ayjet.Evaluation.Center.Application.Common.Models;
+using Ayjet.Evaluation.Center.Application.Features.Candidates.Commands.BulkImport;
+using Ayjet.Evaluation.Center.Application.Features.Candidates.Commands.BulkImportPhotos;
 using Ayjet.Evaluation.Center.Application.Features.Candidates.Commands.ConfirmProfile;
 using Ayjet.Evaluation.Center.Application.Features.Candidates.Commands.Create;
 using Ayjet.Evaluation.Center.Application.Features.Candidates.Commands.Delete;
@@ -15,6 +17,7 @@ using Ayjet.Evaluation.Center.Application.Features.Candidates.Queries.GetList;
 using Ayjet.Evaluation.Center.Application.Features.TestAssignments.Queries.GetListByCandidate;
 using Ayjet.Evaluation.Center.Domain.Entities;
 using Ayjet.Evaluation.Center.Domain.Enums;
+using ClosedXML.Excel;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -91,6 +94,8 @@ public class CandidatesController : ControllerBase
     }
     
     [HttpGet("{id}")]
+    [AllowAnonymous]
+
     public async Task<IActionResult> GetById(string id)
     {
         // Bu işlem için ayrı bir Query/Handler oluşturmak en doğrusu,
@@ -187,5 +192,116 @@ public class CandidatesController : ControllerBase
         return NoContent();
     }
     
+    
+    // --- YENİ TOPLU ADAY YÜKLEME ENDPOINT'İ ---
+    [HttpPost("bulk-import-candidates")]
+    [Consumes("multipart/form-data")] // Form-data olarak dosya alacağımızı belirtir
+    public async Task<IActionResult> BulkImportCandidates(IFormFile file)
+    {
+        if (file == null || file.Length == 0)
+        {
+            return BadRequest("Please upload a valid Excel file.");
+        }
+        if (!Path.GetExtension(file.FileName).Equals(".xlsx", StringComparison.OrdinalIgnoreCase))
+        {
+            return BadRequest("Only .xlsx files are supported.");
+        }
+
+        var command = new BulkImportCandidatesCommand(file);
+        var result = await _mediator.Send(command);
+
+        if (result.FailedCount > 0)
+        {
+            // Kısmi başarı (bazıları eklendi, bazıları eklenemedi)
+            return Ok(result); 
+        }
+
+        // Tam başarı
+        return Ok(result);
+    }
+    
+    
+    
+    // --- YENİ TOPLU FOTOĞRAF YÜKLEME ENDPOINT'İ ---
+    [HttpPost("bulk-import-photos")]
+    [Consumes("multipart/form-data")]
+    public async Task<IActionResult> BulkImportPhotos(IFormFile file)
+    {
+        if (file == null || file.Length == 0)
+        {
+            return BadRequest("Please upload a valid ZIP file.");
+        }
+        if (!Path.GetExtension(file.FileName).Equals(".zip", StringComparison.OrdinalIgnoreCase))
+        {
+            return BadRequest("Only .zip files are supported.");
+        }
+
+        var command = new BulkImportPhotosCommand(file);
+        var result = await _mediator.Send(command);
+
+        return Ok(result); // Başarılı/başarısız eşleşme sayısını döndür
+    }
+    
+    // --- YENİ ŞABLON İNDİRME ENDPOINT'İ ---
+    [HttpGet("bulk-import-template")]
+    [Authorize(Roles = "Admin")]
+    public IActionResult GetCandidateImportTemplate()
+    {
+        using (var workbook = new XLWorkbook())
+        {
+            var worksheet = workbook.Worksheets.Add("Adaylar");
+
+            // Başlıkları oluştur (senin istediğin alanlar)
+            var headers = new string[]
+            {
+                "Ad",         // Adı
+                "Soyad",      // Soyadi
+                "Filo",       // Gruplar -> FleetCode
+                "InitialId",  // Kısa Kod -> InitialCode
+                "DogumTarihi",// Dogum Tarihi
+                "Telefon",    // GSM
+                "Email"       // Email
+            };
+
+            for (int i = 0; i < headers.Length; i++)
+            {
+                var cell = worksheet.Cell(1, i + 1);
+                cell.Value = headers[i];
+                cell.Style.Font.Bold = true;
+                cell.Style.Fill.BackgroundColor = XLColor.LightGray;
+            }
+            
+            // Tarih sütunu için formatlama ve örnek ekleyelim
+            var dateCell = worksheet.Cell(2, 5);
+            dateCell.Value = "1999-10-25"; // Örnek tarih
+            dateCell.Style.NumberFormat.Format = "yyyy-mm-dd"; // Formatı belirt
+            worksheet.Column(5).Style.NumberFormat.Format = "yyyy-mm-dd"; // Tüm sütuna uygula
+            
+            // Örnek bir satır ekleyelim ki kullanıcı formatı görsün
+            worksheet.Cell(2, 1).Value = "Ahmet";
+            worksheet.Cell(2, 2).Value = "Yılmaz";
+            worksheet.Cell(2, 3).Value = "147";
+            worksheet.Cell(2, 4).Value = "147AY";
+            worksheet.Cell(2, 6).Value = "05551234567";
+            worksheet.Cell(2, 7).Value = "ahmet.yilmaz@ornek.com";
+
+            // Sütun genişliklerini ayarla
+            worksheet.Columns().AdjustToContents();
+
+            // Dosyayı bir MemoryStream'e kaydet
+            using (var stream = new MemoryStream())
+            {
+                workbook.SaveAs(stream);
+                var content = stream.ToArray();
+                var mimeType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+                var fileName = "AdayYuklemeSablonu.xlsx";
+
+                // Dosyayı tarayıcıya gönder
+                return File(content, mimeType, fileName);
+            }
+        }
+        
+        
+    }
     
 }

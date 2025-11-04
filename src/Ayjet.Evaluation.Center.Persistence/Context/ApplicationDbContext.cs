@@ -3,7 +3,7 @@ using Ayjet.Evaluation.Center.Domain.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace AAyjet.Evaluation.Center.Persistence.Context;
+namespace Ayjet.Evaluation.Center.Persistence.Context;
 
 public class ApplicationDbContext : IdentityDbContext<ApplicationUser>, IUnitOfWork 
 {
