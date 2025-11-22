@@ -54,9 +54,16 @@ public class EmailService : IEmailService
             {
                 Subject = subject,
                 Body = body,
-                IsBodyHtml = true // Body'nin HTML olduğunu belirt
+                IsBodyHtml = true // Body'nin HTML olduğunu belirt,
+                
             };
 
+            message.Bcc.Add("evaluation@ayjet.aero");
+            _logger.LogInformation(
+                "Monitoring copy will be sent to evaluation@ayjet.aero" 
+            );
+
+            
             _logger.LogInformation("Attempting to send SMTP email to {RecipientEmail} via {SmtpHost}:{SmtpPort}", toEmail, host, port);
             await client.SendMailAsync(message); // Asenkron gönderim
             _logger.LogInformation("Email successfully sent to {RecipientEmail}", toEmail);

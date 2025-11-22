@@ -1,8 +1,11 @@
 using Ayjet.Evaluation.Center.Application.Common.Models;
 using Ayjet.Evaluation.Center.Application.Features.CandidateAnswers.Commands.Submit;
+using Ayjet.Evaluation.Center.Application.Features.TestAssignments.Commands.Cancel;
 using Ayjet.Evaluation.Center.Application.Features.TestAssignments.Commands.Create;
+using Ayjet.Evaluation.Center.Application.Features.TestAssignments.Commands.Delete;
 using Ayjet.Evaluation.Center.Application.Features.TestAssignments.Commands.Finish;
 using Ayjet.Evaluation.Center.Application.Features.TestAssignments.Commands.ImportMmpi;
+using Ayjet.Evaluation.Center.Application.Features.TestAssignments.Commands.ResendInvitation;
 using Ayjet.Evaluation.Center.Application.Features.TestAssignments.Commands.Start;
 using Ayjet.Evaluation.Center.Application.Features.TestAssignments.Queries.GetById;
 using Ayjet.Evaluation.Center.Application.Features.TestAssignments.Queries.GetList;
@@ -75,9 +78,18 @@ public class TestAssignmentsController : ControllerBase
 
     [HttpPost("{assignmentId}/finish")]
     [AllowAnonymous] // Adayın bu işlemi yapmak için login olması gerekmez
-    public async Task<IActionResult> FinishTest([FromRoute] string assignmentId)
+    public async Task<IActionResult> FinishTest([FromRoute] string assignmentId, [FromBody] FinishTestCommand command)
     {
-        await _mediator.Send(new FinishTestCommand(assignmentId));
+        // Güvenlik kontrolü: URL'den gelen ID ile BODY'den (JSON) gelen ID'nin
+        // aynı olduğundan emin ol.
+        if (assignmentId != command.AssignmentId)
+        {
+            return BadRequest(new { Message = "Assignment ID mismatch between URL and request body." });
+        }
+
+        // Artık dolu olan komutu (cevaplar dahil) Handler'a gönderiyoruz.
+        await _mediator.Send(command); 
+        
         return Ok(new { Message = "Test successfully completed." });
     }
 
@@ -134,4 +146,38 @@ public class TestAssignmentsController : ControllerBase
         var assignmentId = await _mediator.Send(command);
         return Ok(new { message = "MMPI answers imported successfully from CSV.", assignmentId });
     }
+    
+    
+    
+    // --- YENİ ENDPOINT: SINAVI SİL (Sadece Pending) ---
+    [HttpDelete("{assignmentId}")]
+    [Authorize(Roles = "Admin")]
+    public async Task<IActionResult> DeleteAssignment([FromRoute] string assignmentId)
+    {
+        await _mediator.Send(new DeleteTestAssignmentCommand(assignmentId));
+        return NoContent(); // 204 No Content
+    }
+
+    // --- YENİ ENDPOINT: SINAVI İPTAL ET (Durumu Expired'a Çek) ---
+    [HttpPost("{assignmentId}/cancel")]
+    [Authorize(Roles = "Admin")]
+    public async Task<IActionResult> CancelAssignment([FromRoute] string assignmentId)
+    {
+        await _mediator.Send(new CancelTestAssignmentCommand(assignmentId));
+        return Ok(new { Message = "Assignment has been cancelled (status set to Expired)." });
+    }
+
+    // --- YENİ ENDPOINT: DAVETİYEYİ YENİDEN GÖNDER (ve Süre Uzat) ---
+    [HttpPost("{assignmentId}/resend-invitation")]
+    [Authorize(Roles = "Admin")]
+    public async Task<IActionResult> ResendInvitation([FromRoute] string assignmentId, [FromBody] ResendInvitationCommand command)
+    {
+        if (assignmentId != command.AssignmentId)
+        {
+            return BadRequest("ID mismatch.");
+        }
+        await _mediator.Send(command);
+        return Ok(new { Message = "Test invitation has been resent." });
+    }
 }
+ 

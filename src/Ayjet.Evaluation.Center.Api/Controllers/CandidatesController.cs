@@ -140,7 +140,8 @@ public class CandidatesController : ControllerBase
   
     
     [HttpPost("{id}/profile-picture")]
-    [Authorize]
+    [AllowAnonymous]
+     
     public async Task<IActionResult> UpdateProfilePicture(string id, IFormFile profilePicture) // <-- Parameter name changed to 'profilePicture'
     {
         if (profilePicture == null || profilePicture.Length == 0)
@@ -155,6 +156,7 @@ public class CandidatesController : ControllerBase
     }
     
     [HttpPut("{id}")]
+    [AllowAnonymous]
     public async Task<IActionResult> Update(string id, [FromBody] UpdateCandidateProfileCommand command)
     {
         if (id != command.Id)
@@ -167,7 +169,8 @@ public class CandidatesController : ControllerBase
     
     
     [HttpPut("{id}/profile")]
-    [Authorize]
+    [AllowAnonymous]
+    //[Authorize]
     public async Task<IActionResult> UpdateProfile(string id, [FromBody] UpdateProfileDto dto)
     {
         // Construct the full command using the ID from the URL and the data from the body

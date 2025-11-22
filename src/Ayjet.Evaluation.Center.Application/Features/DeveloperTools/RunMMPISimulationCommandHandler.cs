@@ -98,7 +98,7 @@ public class RunMMPISimulationCommandHandler : IRequestHandler<RunMMPISimulation
             await _mediator.Send(answerCommand, cancellationToken);
         }
 
-        await _mediator.Send(new FinishTestCommand(assignmentId), cancellationToken);
+       // await _mediator.Send(new FinishTestCommand(assignmentId), cancellationToken);
 
         return generatedAnswers;
     }
