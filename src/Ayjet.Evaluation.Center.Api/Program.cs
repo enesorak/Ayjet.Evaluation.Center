@@ -3,7 +3,6 @@ using System.Text.Json.Serialization;
 using Ayjet.Evaluation.Center.Persistence;
 using Ayjet.Evaluation.Center.Api.Filters;
 using Ayjet.Evaluation.Center.Api.Middleware;
- 
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.IdentityModel.Tokens;
@@ -12,7 +11,6 @@ using Ayjet.Evaluation.Center.Application;
 using Ayjet.Evaluation.Center.Domain.Entities;
 using Ayjet.Evaluation.Center.Infrastructure;
 using Ayjet.Evaluation.Center.Infrastructure.Hubs;
-using Ayjet.Evaluation.Center.Persistence;
 using Ayjet.Evaluation.Center.Persistence.Context;
 using Ayjet.Evaluation.Center.Persistence.DataSeeders;
 using Hangfire;
@@ -25,10 +23,8 @@ builder.Services.AddApplicationServices();
 builder.Services.AddPersistenceServices(builder.Configuration);
 builder.Services.AddInfrastructureServices(builder.Configuration);
 
-
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
     .AddEntityFrameworkStores<ApplicationDbContext>();
-
 
 builder.Services.AddAuthentication(options =>
     {
@@ -44,11 +40,10 @@ builder.Services.AddAuthentication(options =>
                 var accessToken = context.Request.Query["access_token"];
                 var path = context.HttpContext.Request.Path;
                 if (!string.IsNullOrEmpty(accessToken) &&
-                    (path.StartsWithSegments("/notificationHub")))
+                    (path.StartsWithSegments("/api/notificationHub")))
                 {
                     context.Token = accessToken;
                 }
-
                 return Task.CompletedTask;
             }
         };
@@ -60,32 +55,10 @@ builder.Services.AddAuthentication(options =>
             ValidateIssuerSigningKey = true,
             ValidIssuer = builder.Configuration["JwtSettings:Issuer"],
             ValidAudience = builder.Configuration["JwtSettings:Audience"],
-            IssuerSigningKey =
-                new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:Key"]!))
-        };
-        
-        options.Events = new JwtBearerEvents
-        {
-            OnMessageReceived = context =>
-            {
-                // SignalR token'ını query string'den oku
-                var accessToken = context.Request.Query["access_token"];
-
-                // Path'in hub endpoint'imize ait olup olmadığını kontrol et
-                // (Frontend /service/api/notificationHub'ı aradığı için,
-                // IIS'in /service/ kısmını attıktan sonra backend'e /api/notificationHub gelir)
-                var path = context.HttpContext.Request.Path;
-                if (!string.IsNullOrEmpty(accessToken) &&
-                    (path.StartsWithSegments("/api/notificationHub"))) // Bizim hub'ın yolu
-                {
-                    // Token'ı context'e ata, böylece [Authorize] attribute'u onu görür
-                    context.Token = accessToken;
-                }
-                return Task.CompletedTask;
-            }
+            IssuerSigningKey = new SymmetricSecurityKey(
+                Encoding.UTF8.GetBytes(builder.Configuration["JwtSettings:Key"]!))
         };
     });
-
 
 builder.Services.AddSignalR();
 
@@ -95,7 +68,6 @@ builder.Services.AddCors(options =>
     {
         if (builder.Environment.IsDevelopment())
         {
-            // Development için localhost
             policyBuilder.WithOrigins(
                     "http://localhost:5173",
                     "http://localhost:3000",
@@ -104,40 +76,37 @@ builder.Services.AddCors(options =>
                 .AllowAnyHeader()
                 .AllowAnyMethod()
                 .AllowCredentials()
-                .WithExposedHeaders("Content-Disposition"); // Dosya indirme için gerekli
+                .WithExposedHeaders("Content-Disposition");
         }
         else
         {
-            // Production için domain
             policyBuilder.WithOrigins(
                     "https://evaluation.ayjet.aero",
-                    "http://evaluation.ayjet.aero" ,
+                    "http://evaluation.ayjet.aero",
                     "http://localhost:5000",
                     "http://localhost:8088"
                 )
                 .AllowAnyHeader()
                 .AllowAnyMethod()
                 .AllowCredentials()
-                .WithExposedHeaders("Content-Disposition") // Dosya indirme için gerekli
-                .SetPreflightMaxAge(TimeSpan.FromMinutes(10)); // Preflight cache süresi
+                .WithExposedHeaders("Content-Disposition")
+                .SetPreflightMaxAge(TimeSpan.FromMinutes(10));
         }
     });
 });
 
 builder.Services.AddControllers().AddJsonOptions(options =>
 {
-    // Enum'ları sayı yerine metin olarak serialize et (örn: 2 yerine "Psychometric")
     options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter());
 });
-QuestPDF.Settings.License = LicenseType.Community; 
-builder.Services.AddOpenApi();
 
+QuestPDF.Settings.License = LicenseType.Community;
+builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Ayjet.Evaluation.Center.Api", Version = "v1" });
-
 
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
@@ -146,8 +115,7 @@ builder.Services.AddSwaggerGen(c =>
         Scheme = "Bearer",
         BearerFormat = "JWT",
         In = ParameterLocation.Header,
-        Description =
-            "JWT Authorization header using the Bearer scheme. \r\n\r\n Enter 'Bearer' [space] and then your token in the text input below.\r\n\r\nExample: \"Bearer **\""
+        Description = "JWT Authorization header using the Bearer scheme. \r\n\r\n Enter 'Bearer' [space] and then your token in the text input below.\r\n\r\nExample: \"Bearer **\""
     });
 
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
@@ -161,71 +129,110 @@ builder.Services.AddSwaggerGen(c =>
                     Id = "Bearer"
                 }
             },
-            []
+            Array.Empty<string>()
         }
     });
 });
 
 var app = builder.Build();
 
- 
-
+// =========================================
+// DATABASE MIGRATION & SEEDING
+// =========================================
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
+    var env = services.GetRequiredService<IWebHostEnvironment>();
+    var logger = services.GetRequiredService<ILogger<Program>>();
+    
     try
     {
         var dbContext = services.GetRequiredService<ApplicationDbContext>();
-        // Eğer bekleyen migration varsa, uygula (veritabanı yoksa oluşturur).
-        dbContext.Database.Migrate();
-
-        // Veri tohumlama işlemini de burada yapalım.
-        await IdentityDataSeeder.SeedRolesAndAdminAsync(services);
-        await TestContentSeeder.SeedMmpiTestAsync(dbContext);
+        
+        if (env.IsDevelopment())
+        {
+            logger.LogInformation("🔧 Development mode: Running automatic migrations...");
+            
+            // Development: Otomatik migration + seed
+            dbContext.Database.Migrate();
+            await IdentityDataSeeder.SeedRolesAndAdminAsync(services);
+            await TestContentSeeder.SeedMmpiTestAsync(dbContext);
+            
+            logger.LogInformation("✅ Migrations and seeding completed successfully.");
+        }
+        else // Production
+        {
+            logger.LogInformation("🏭 Production mode: Checking for pending migrations...");
+            
+            // Production: Sadece seed data (migration manuel)
+            await IdentityDataSeeder.SeedRolesAndAdminAsync(services);
+            
+            // Pending migration kontrolü ve uyarı
+            var pendingMigrations = await dbContext.Database.GetPendingMigrationsAsync();
+            if (pendingMigrations.Any())
+            {
+                logger.LogWarning(
+                    "⚠️ WARNING: {Count} pending migration(s) detected: {Migrations}",
+                    pendingMigrations.Count(),
+                    string.Join(", ", pendingMigrations)
+                );
+                logger.LogWarning(
+                    "⚠️ Please run migrations manually: dotnet ef database update"
+                );
+            }
+            else
+            {
+                logger.LogInformation("✅ Database is up to date.");
+            }
+        }
     }
     catch (Exception ex)
     {
-        var logger = services.GetRequiredService<ILogger<Program>>();
-        logger.LogError(ex, "An error occurred while migrating or seeding the database.");
+        logger.LogError(ex, "❌ An error occurred during database initialization.");
+        
+        // Production'da hata durumunda uygulamayı başlatma
+        if (!env.IsDevelopment())
+        {
+            logger.LogCritical("❌ CRITICAL: Cannot start application due to database error.");
+            throw; // Uygulamayı durdur
+        }
     }
 }
 
-
+// =========================================
+// MIDDLEWARE PIPELINE
+// =========================================
 app.UseMiddleware<ExceptionHandlerMiddleware>();
 
- 
+var swaggerEnabled = builder.Configuration.GetValue<bool>("SwaggerEnabled");
 
-    var swaggerEnabled = builder.Configuration.GetValue<bool>("SwaggerEnabled");
-
-    if (swaggerEnabled)
+if (swaggerEnabled)
+{
+    app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
     {
-        app.MapOpenApi();
-        app.UseSwagger();
-        app.UseSwaggerUI(c =>
-        {
-            c.RoutePrefix = "swagger";
-            c.SwaggerEndpoint("v1/swagger.json", "Ayjet Evaluation API v1");
-        });
-    }
+        c.RoutePrefix = "swagger";
+        c.SwaggerEndpoint("v1/swagger.json", "Ayjet Evaluation API v1");
+    });
+}
 
 app.UseHttpsRedirection();
-
 app.UseStaticFiles();
-
-
 app.UseRouting();
 app.UseCors("AllowVueApp");
-app.UseHangfireDashboard("/hangfire", new DashboardOptions
-{
-    Authorization = [new HangfireDashboardAuthorizationFilter()]
-});
 
-
-
+// Authentication/Authorization
 app.UseAuthentication();
 app.UseAuthorization();
-app.MapControllers();
 
+// Hangfire Dashboard (Admin only)
+app.UseHangfireDashboard("/hangfire", new DashboardOptions
+{
+    Authorization = new[] { new HangfireDashboardAuthorizationFilter() }
+});
+
+app.MapControllers();
 app.MapHub<NotificationHub>("/api/notificationHub");
 
 app.MapGet("/debug/routes", (IEnumerable<EndpointDataSource> endpointSources) =>
@@ -237,9 +244,7 @@ app.MapGet("/debug/routes", (IEnumerable<EndpointDataSource> endpointSources) =>
             $"[{e.Metadata.GetMetadata<IHttpMethodMetadata>()?.HttpMethods.FirstOrDefault()}] {e.RoutePattern.RawText}"
         ));
     }
-
     return Results.Ok(endpoints.OrderBy(r => r));
 });
-
 
 app.Run();

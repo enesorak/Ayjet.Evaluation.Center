@@ -4,14 +4,14 @@ using Ayjet.Evaluation.Center.Domain.Entities;
 using Ayjet.Evaluation.Center.Domain.Enums;
 using MediatR;
 
-namespace Ayjet.Evaluation.Center.Application.Features.TestAssignments.Commands.Delete;
+namespace Ayjet.Evaluation.Center.Application.Features.TestAssignments.Commands.Invalidate;
 
-public class DeleteTestAssignmentCommandHandler : IRequestHandler<DeleteTestAssignmentCommand>
+public class InvalidateTestAssignmentCommandHandler : IRequestHandler<InvalidateTestAssignmentCommand>
 {
     private readonly ITestAssignmentRepository _assignmentRepository;
     private readonly IUnitOfWork _unitOfWork;
 
-    public DeleteTestAssignmentCommandHandler(
+    public InvalidateTestAssignmentCommandHandler(
         ITestAssignmentRepository assignmentRepository, 
         IUnitOfWork unitOfWork)
     {
@@ -19,22 +19,26 @@ public class DeleteTestAssignmentCommandHandler : IRequestHandler<DeleteTestAssi
         _unitOfWork = unitOfWork;
     }
 
-    public async Task Handle(DeleteTestAssignmentCommand request, CancellationToken cancellationToken)
+    public async Task Handle(InvalidateTestAssignmentCommand request, CancellationToken cancellationToken)
     {
         var assignment = await _assignmentRepository.GetByIdAsync(request.AssignmentId, cancellationToken)
                          ?? throw new NotFoundException(nameof(TestAssignment), request.AssignmentId);
 
-        // SADECE Pending ve Invalidated durumlarında silinebilir
-        if (assignment.Status != TestAssignmentStatus.Pending && 
-            assignment.Status != TestAssignmentStatus.Invalidated)
+        // Sadece Completed durumundaki sınavlar geçersiz sayılabilir
+        if (assignment.Status != TestAssignmentStatus.Completed)
         {
             throw new InvalidOperationException(
-                $"Cannot delete assignment with status '{assignment.Status}'. " +
-                "Only 'Pending' or 'Invalidated' assignments can be deleted."
+                "Only completed tests can be invalidated."
             );
         }
 
-        _assignmentRepository.Delete(assignment);
+        // Status'u Invalidated yap ve bilgileri kaydet
+        assignment.Status = TestAssignmentStatus.Invalidated;
+        assignment.InvalidatedAt = DateTime.UtcNow;
+        assignment.InvalidationReason = request.Reason;
+        assignment.UpdatedAt = DateTime.UtcNow;
+
+        _assignmentRepository.Update(assignment);
         await _unitOfWork.SaveChangesAsync(cancellationToken);
     }
 }

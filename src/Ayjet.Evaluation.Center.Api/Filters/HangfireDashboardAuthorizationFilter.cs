@@ -6,9 +6,12 @@ public class HangfireDashboardAuthorizationFilter : IDashboardAuthorizationFilte
 {
     public bool Authorize(DashboardContext context)
     {
-        return true;
-        var httpContext = context.GetHttpContext();
-        // Sadece Admin rolüne sahip kullanıcıların dashboard'ı görmesine izin ver.
-        return httpContext.User.Identity?.IsAuthenticated == true && httpContext.User.IsInRole("Admin");
+     /*   var httpContext = context.GetHttpContext();
+        
+        // Kullanıcı login olmuş VE Admin rolüne sahip mi?
+        return httpContext.User.Identity?.IsAuthenticated == true 
+               && httpContext.User.IsInRole("Admin");*/
+     
+     return true;
     }
 }

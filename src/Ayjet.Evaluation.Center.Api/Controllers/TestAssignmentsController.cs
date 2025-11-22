@@ -5,6 +5,8 @@ using Ayjet.Evaluation.Center.Application.Features.TestAssignments.Commands.Crea
 using Ayjet.Evaluation.Center.Application.Features.TestAssignments.Commands.Delete;
 using Ayjet.Evaluation.Center.Application.Features.TestAssignments.Commands.Finish;
 using Ayjet.Evaluation.Center.Application.Features.TestAssignments.Commands.ImportMmpi;
+using Ayjet.Evaluation.Center.Application.Features.TestAssignments.Commands.Invalidate;
+using Ayjet.Evaluation.Center.Application.Features.TestAssignments.Commands.MarkPsychologistInterview;
 using Ayjet.Evaluation.Center.Application.Features.TestAssignments.Commands.ResendInvitation;
 using Ayjet.Evaluation.Center.Application.Features.TestAssignments.Commands.Start;
 using Ayjet.Evaluation.Center.Application.Features.TestAssignments.Queries.GetById;
@@ -178,6 +180,37 @@ public class TestAssignmentsController : ControllerBase
         }
         await _mediator.Send(command);
         return Ok(new { Message = "Test invitation has been resent." });
+    }
+    
+    
+    [HttpPost("{assignmentId}/invalidate")]
+    [Authorize(Roles = "Admin")]
+    public async Task<IActionResult> InvalidateAssignment(
+        [FromRoute] string assignmentId, 
+        [FromBody] InvalidateTestAssignmentCommand command)
+    {
+        if (assignmentId != command.AssignmentId)
+        {
+            return BadRequest("ID mismatch.");
+        }
+    
+        await _mediator.Send(command);
+        return Ok(new { Message = "Test has been marked as invalid." });
+    }
+
+    [HttpPost("{assignmentId}/mark-psychologist-interview")]
+    [Authorize(Roles = "Admin,Psychologist")]
+    public async Task<IActionResult> MarkPsychologistInterview(
+        [FromRoute] string assignmentId, 
+        [FromBody] MarkPsychologistInterviewCommand command)
+    {
+        if (assignmentId != command.AssignmentId)
+        {
+            return BadRequest("ID mismatch.");
+        }
+    
+        await _mediator.Send(command);
+        return Ok(new { Message = "Psychologist interview has been marked as completed." });
     }
 }
  

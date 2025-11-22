@@ -15,6 +15,15 @@ public class TestAssignment : BaseEntityWithGuid
     public DateTime ExpiresAt { get; set; }
     public DateTime? StartedAt { get; set; }
     public DateTime? CompletedAt { get; set; }
+    
+  
+    public DateTime? InvalidatedAt { get; set; }
+    public string? InvalidationReason { get; set; }
+    
+    // === YENİ ALANLAR: PSİKOLOG GÖRÜŞMESI ===
+    public bool IsPsychologistInterviewCompleted { get; set; } = false;
+    public DateTime? PsychologistInterviewDate { get; set; }
+    public string? PsychologistNotes { get; set; } // Psikolog notları (o
 
     // === BU İKİ ALANIN NULLABLE (?) OLMASI KRİTİK ===
     public int? TimeLimitInMinutes { get; set; }

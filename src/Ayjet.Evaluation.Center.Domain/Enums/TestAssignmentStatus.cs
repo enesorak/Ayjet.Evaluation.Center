@@ -5,5 +5,6 @@ public enum TestAssignmentStatus
     Pending = 1, // Atandı, henüz başlanmadı
     InProgress = 2, // Aday tarafından başlatıldı
     Completed = 3, // Tamamlandı
-    Expired = 4 // Süresi geçti
+    Expired = 4, // Süresi geçti
+    Invalidated = 5  // Geçersiz
 }
