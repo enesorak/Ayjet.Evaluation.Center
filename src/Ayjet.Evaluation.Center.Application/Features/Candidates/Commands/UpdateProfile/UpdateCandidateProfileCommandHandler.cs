@@ -41,7 +41,7 @@ public class UpdateCandidateProfileCommandHandler : IRequestHandler<UpdateCandid
         candidate.Gender = (Gender?)request.Gender;
         candidate.InitialCode = string.IsNullOrWhiteSpace(request.InitialCode) ? null : request.InitialCode;
         candidate.FleetCode = string.IsNullOrWhiteSpace(request.FleetCode) ? null : request.FleetCode;
-
+candidate.PhoneNumber = request.PhoneNumber;
         candidate.BirthDate = request.BirthDate;
         candidate.MaritalStatus = request.MaritalStatus;
         candidate.Profession = request.Profession;

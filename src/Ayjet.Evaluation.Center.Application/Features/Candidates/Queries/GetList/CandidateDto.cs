@@ -12,6 +12,8 @@ public class CandidateDto
     public string Department { get; set; } = string.Empty;
     public string? InitialCode { get; set; }
     public string? FleetCode { get; set; }
+    
+    public string? PhoneNumber { get; set; }
     public DateOnly? BirthDate { get; set; } // Yeni alan
     public int? Age => BirthDate.HasValue
         ? DateTime.Today.Year - BirthDate.Value.Year - (DateTime.Today.DayOfYear < BirthDate.Value.DayOfYear ? 1 : 0)

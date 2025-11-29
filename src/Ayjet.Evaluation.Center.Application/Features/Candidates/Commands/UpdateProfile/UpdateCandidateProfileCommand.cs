@@ -10,6 +10,7 @@ public record UpdateCandidateProfileCommand(
     string Email,
     string? InitialCode,
     string? FleetCode,
+    string? PhoneNumber,
   //  int CandidateType, // <-- EKLENDİ
   //  int Department,    // <-- EKLENDİ
     Gender? Gender,

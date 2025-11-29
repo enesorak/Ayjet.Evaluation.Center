@@ -181,6 +181,7 @@ public class CandidatesController : ControllerBase
             dto.Email,
             dto.InitialCode,
             dto.FleetCode,
+            dto.PhoneNumber,
             //dto.CandidateType, // <-- Eklendi
             //to.Department,
           

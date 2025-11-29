@@ -9,6 +9,8 @@ public class UpdateProfileDto
     public string Email { get; set; } = string.Empty;
     public string? InitialCode { get; set; }
     public string? FleetCode { get; set; }
+    public string? PhoneNumber { get; set; }
+    
   //  public int CandidateType { get; set; } // <-- YENİ ALAN
    // public int Department { get; set; }    // <-- YENİ ALAN
     public Gender? Gender { get; set; }
